@@ -1,0 +1,104 @@
+/* .box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  } */
+  
+  .box .group {
+    
+    /* height: auto; */
+    /* left: 0; */
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+  }
+  
+  .box .overlap-group {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    height: 312px;
+    /* position: absolute; */
+    /* width: px; */
+  }
+  
+  .box .vector {
+    height: 1px;
+    /* left: 0; */
+    object-fit: cover;
+    position: absolute;
+    top: 242px;
+    /* width: 1440px; */
+  }
+  
+  .box .image {
+    height: 54px;
+    /* left: 693px; */
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 54px;
+  }
+  
+  .box .text-wrapper {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    /* left: 505px; */
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    text-align: center;
+    top: 101px;
+    width: 429px;
+  }
+  
+  .box .div {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    /* left: 654px; */
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 262px;
+    white-space: nowrap;
+  }
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF; /* Adjust the color as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
+  
+  .box .navbar {
+    align-items: center;
+    display: inline-flex;
+    gap: 42px;
+    justify-content: center;
+    /* left: 484px; */
+    padding: 10px;
+    position: absolute;
+    top: 178px;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.3px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

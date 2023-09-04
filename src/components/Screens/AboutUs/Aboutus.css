@@ -1,0 +1,1876 @@
+.about-us {
+    background-color: #131820;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about-us .div {
+    background-color: #131820;
+    height: 1665px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .about-us .overlap {
+    height: 1582px;
+    left: -230px;
+    position: absolute;
+    top: 83px;
+    width: 1988px;
+  }
+  
+  .about-us .rectangle {
+    background: linear-gradient(
+      180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%
+    );
+    height: 1503px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1988px;
+  }
+  
+  .about-us .ellipse {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 38px;
+    height: 76px;
+    left: 345px;
+    opacity: 0.8;
+    position: absolute;
+    top: 599px;
+    width: 76px;
+  }
+  
+  .about-us .ellipse-2 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 47.5px;
+    height: 95px;
+    left: 1480px;
+    opacity: 0.8;
+    position: absolute;
+    top: 975px;
+    width: 95px;
+  }
+  
+  .about-us .ellipse-3 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 31.5px;
+    height: 63px;
+    left: 211px;
+    opacity: 0.8;
+    position: absolute;
+    top: 1050px;
+    width: 63px;
+  }
+  
+  .about-us .rectangle-2 {
+    -webkit-backdrop-filter: blur(52px) brightness(100%);
+    backdrop-filter: blur(52px) brightness(100%);
+    background-color: #ffffff14;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(45, 181, 193) 21%,
+        rgb(64.04, 221.16, 235.03) 65.63%,
+        rgb(0, 234.32, 255) 89.29%
+      )
+      1;
+    border-radius: 16px;
+    height: 403px;
+    left: 380px;
+    position: absolute;
+    top: 637px;
+    width: 558px;
+  }
+  
+  .about-us .rectangle-3 {
+    -webkit-backdrop-filter: blur(52px) brightness(100%);
+    backdrop-filter: blur(52px) brightness(100%);
+    background-color: #ffffff14;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(45, 181, 193) 21%,
+        rgb(64.04, 221.16, 235.03) 65.63%,
+        rgb(0, 234.32, 255) 89.29%
+      )
+      1;
+    border-radius: 16px;
+    height: 403px;
+    left: 976px;
+    position: absolute;
+    top: 637px;
+    width: 558px;
+  }
+  
+  .about-us .group {
+    height: 4px;
+    left: 314px;
+    position: absolute;
+    top: 603px;
+    width: 1272px;
+  }
+  
+  .about-us .ellipse-4 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 78px;
+    height: 156px;
+    left: 152px;
+    opacity: 0.8;
+    position: absolute;
+    top: 112px;
+    width: 156px;
+  }
+  
+  .about-us .ellipse-5 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 67px;
+    height: 134px;
+    left: 1603px;
+    opacity: 0.8;
+    position: absolute;
+    top: 549px;
+    width: 134px;
+  }
+  
+  .about-us .ellipse-6 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 90.5px;
+    height: 181px;
+    left: 1353px;
+    opacity: 0.8;
+    position: absolute;
+    top: 392px;
+    width: 181px;
+  }
+  
+  .about-us .group-2 {
+    height: 239px;
+    left: 380px;
+    position: absolute;
+    top: 207px;
+    width: 419px;
+  }
+  
+  .about-us .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 11px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .about-us .text-wrapper {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    margin-top: -1px;
+    position: relative;
+    width: 419px;
+  }
+  
+  .about-us .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 214px;
+  }
+  
+  .about-us .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 24.7px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .about-us .arrow {
+    height: 7.36px;
+    margin-right: -0.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22.5px;
+  }
+  
+  .about-us .zengur-s-mission-is {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 833px;
+    width: 494px;
+  }
+  
+  .about-us .innovation-we {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1008px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 833px;
+    width: 494px;
+  }
+  
+  .about-us .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 380px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 139px;
+    white-space: nowrap;
+  }
+  
+  .about-us .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 766px;
+    white-space: nowrap;
+  }
+  
+  .about-us .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 1008px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 766px;
+    white-space: nowrap;
+  }
+  
+  .about-us .overlap-wrapper {
+    height: 408px;
+    left: 880px;
+    position: absolute;
+    top: 116px;
+    width: 592px;
+  }
+  
+  .about-us .overlap-group {
+    height: 408px;
+    position: relative;
+  }
+  
+  .about-us .image {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 51.29%, rgb(51.18, 207.7, 215.48) 92.91%);
+    border-radius: 40px;
+    height: 367px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 551px;
+  }
+  
+  .about-us .img {
+    height: 367px;
+    left: 41px;
+    object-fit: cover;
+    position: absolute;
+    top: 41px;
+    width: 551px;
+  }
+  
+  .about-us .image-2 {
+    height: 80px;
+    left: 412px;
+    object-fit: cover;
+    position: absolute;
+    top: 669px;
+    width: 80px;
+  }
+  
+  .about-us .overlap-group-wrapper {
+    height: 312px;
+    left: 230px;
+    position: absolute;
+    top: 1270px;
+    width: 1444px;
+  }
+  
+  .about-us .overlap-2 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    height: 312px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .about-us .vector {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 242px;
+    width: 1440px;
+  }
+  
+  .about-us .image-3 {
+    height: 54px;
+    left: 693px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 54px;
+  }
+  
+  .about-us .p {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 505px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    text-align: center;
+    top: 101px;
+    width: 429px;
+  }
+  
+  .about-us .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 654px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 262px;
+    white-space: nowrap;
+  }
+  
+  .about-us .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 42px;
+    justify-content: center;
+    left: 484px;
+    padding: 10px;
+    position: absolute;
+    top: 178px;
+  }
+  
+  .about-us .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20.3px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .about-us .overlap-3 {
+    height: 2858px;
+    left: -372px;
+    position: absolute;
+    top: 1895px;
+    width: 2086px;
+  }
+  
+  .about-us .rectangle-4 {
+    background: linear-gradient(
+      180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%
+    );
+    height: 641px;
+    left: 0;
+    position: absolute;
+    top: 477px;
+    width: 1988px;
+  }
+  
+  .about-us .rectangle-5 {
+    background: linear-gradient(
+      180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%
+    );
+    height: 937px;
+    left: 98px;
+    position: absolute;
+    top: 1883px;
+    width: 1988px;
+  }
+  
+  .about-us .group-3 {
+    -webkit-backdrop-filter: blur(60px) brightness(100%);
+    backdrop-filter: blur(60px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.08) 100%);
+    border: 1px solid;
+    border-color: #ffffff40;
+    border-radius: 61px;
+    height: 364px;
+    left: 522px;
+    position: absolute;
+    top: 0;
+    width: 1140px;
+  }
+  
+  .about-us .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 42px;
+    position: absolute;
+    top: 92px;
+  }
+  
+  .about-us .frame-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+  }
+  
+  .about-us .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .about-us .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24.7px;
+    position: relative;
+    width: 315px;
+  }
+  
+  .about-us .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .about-us .arrow-2 {
+    height: 1px;
+    margin-left: -16741.76px;
+    margin-top: -1640.04px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .group-wrapper {
+    -webkit-backdrop-filter: blur(37.66px) brightness(100%);
+    backdrop-filter: blur(37.66px) brightness(100%);
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border: 0.63px solid;
+    border-color: #ffffff40;
+    height: 327px;
+    left: 399px;
+    position: absolute;
+    top: 0;
+    width: 230px;
+  }
+  
+  .about-us .div-wrapper {
+    height: 231px;
+    left: 13px;
+    position: relative;
+    top: 47px;
+    width: 203px;
+  }
+  
+  .about-us .group-4 {
+    height: 231px;
+    position: relative;
+    width: 207px;
+  }
+  
+  .about-us .frame-7 {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    left: 46px;
+    position: absolute;
+    top: 206px;
+  }
+  
+  .about-us .arrow-3 {
+    height: 1px;
+    margin-left: -17148.77px;
+    margin-top: -1644.58px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .rectangle-6 {
+    background-color: #f5f1fd;
+    border-radius: 11px;
+    height: 86px;
+    left: 59px;
+    position: absolute;
+    top: 0;
+    width: 86px;
+  }
+  
+  .about-us .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 108px;
+  }
+  
+  .about-us .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 25.1px;
+    position: absolute;
+    text-align: center;
+    top: 143px;
+    width: 203px;
+  }
+  
+  .about-us .group-5 {
+    height: 48px;
+    left: -16551px;
+    position: absolute;
+    top: 511px;
+    width: 48px;
+  }
+  
+  .about-us .group-6 {
+    height: 231px;
+    left: 669px;
+    position: absolute;
+    top: 52px;
+    width: 207px;
+  }
+  
+  .about-us .arrow-4 {
+    height: 1px;
+    margin-left: -17406.37px;
+    margin-top: -1650.04px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .group-7 {
+    height: 231px;
+    left: 912px;
+    position: absolute;
+    top: 52px;
+    width: 207px;
+  }
+  
+  .about-us .arrow-5 {
+    height: 1px;
+    margin-left: -17649.37px;
+    margin-top: -1650.04px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .ellipse-7 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 90.5px;
+    height: 181px;
+    left: 1535px;
+    opacity: 0.8;
+    position: absolute;
+    top: 890px;
+    width: 181px;
+  }
+  
+  .about-us .group-8 {
+    height: 229px;
+    left: 562px;
+    position: absolute;
+    top: 729px;
+    width: 419px;
+  }
+  
+  .about-us .frame-8 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 0;
+    position: absolute;
+    top: 204px;
+  }
+  
+  .about-us .arrow-6 {
+    height: 1px;
+    margin-left: -16727.77px;
+    margin-top: -2323.95px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 562px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 636px;
+    white-space: nowrap;
+  }
+  
+  .about-us .group-9 {
+    height: 408px;
+    left: 1062px;
+    position: absolute;
+    top: 614px;
+    width: 592px;
+  }
+  
+  .about-us .image-4 {
+    height: 367px;
+    left: -16588px;
+    object-fit: cover;
+    position: absolute;
+    top: 533px;
+    width: 551px;
+  }
+  
+  .about-us .rectangle-7 {
+    background: linear-gradient(
+      180deg,
+      rgb(45, 181, 193) 21%,
+      rgb(64.04, 221.16, 235.03) 65.63%,
+      rgb(0, 234.32, 255) 89.29%
+    );
+    border-radius: 293.93px;
+    filter: blur(134.01px);
+    height: 531px;
+    left: 1511px;
+    opacity: 0.1;
+    position: absolute;
+    top: 939px;
+    width: 431px;
+  }
+  
+  .about-us .rectangle-8 {
+    background: linear-gradient(
+      180deg,
+      rgb(45, 181, 193) 21%,
+      rgb(64.04, 221.16, 235.03) 65.63%,
+      rgb(0, 234.32, 255) 89.29%
+    );
+    border-radius: 293.93px;
+    filter: blur(134.01px);
+    height: 531px;
+    left: 250px;
+    opacity: 0.1;
+    position: absolute;
+    top: 222px;
+    width: 431px;
+  }
+  
+  .about-us .ellipse-8 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 75px;
+    height: 150px;
+    left: 291px;
+    position: absolute;
+    top: 487px;
+    width: 150px;
+  }
+  
+  .about-us .ellipse-9 {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    border-radius: 38.55px;
+    height: 77px;
+    left: 1780px;
+    position: absolute;
+    top: 1092px;
+    width: 77px;
+  }
+  
+  .about-us .ellipse-10 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 147px;
+    filter: blur(252px);
+    height: 294px;
+    left: 1669px;
+    position: absolute;
+    top: 1654px;
+    width: 294px;
+  }
+  
+  .about-us .ellipse-11 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 147px;
+    filter: blur(252px);
+    height: 294px;
+    left: 189px;
+    position: absolute;
+    top: 2200px;
+    width: 294px;
+  }
+  
+  .about-us .group-10 {
+    height: 464px;
+    left: 322px;
+    position: absolute;
+    top: 1301px;
+    width: 1370px;
+  }
+  
+  .about-us .group-11 {
+    height: 229px;
+    left: 947px;
+    position: absolute;
+    top: 111px;
+    width: 419px;
+  }
+  
+  .about-us .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: relative;
+    width: 419px;
+  }
+  
+  .about-us .arrow-7 {
+    height: 1px;
+    margin-left: -17435px;
+    margin-top: -3006.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .overlap-4 {
+    height: 464px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 825px;
+  }
+  
+  .about-us .rectangle-9 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 40px;
+    height: 302px;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    width: 825px;
+  }
+  
+  .about-us .rectangle-10 {
+    -webkit-backdrop-filter: blur(46px) brightness(100%);
+    backdrop-filter: blur(46px) brightness(100%);
+    background-color: #ffffff3b;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0) 25.22%,
+        rgba(255, 255, 255, 0) 76.42%,
+        rgb(255, 255, 255) 100%
+      )
+      1;
+    border-radius: 10px;
+    height: 220px;
+    left: 267px;
+    position: absolute;
+    top: 0;
+    width: 237px;
+  }
+  
+  .about-us .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 283px;
+    letter-spacing: 0;
+    line-height: 30.5px;
+    position: absolute;
+    top: 109px;
+    width: 196px;
+  }
+  
+  .about-us .frame-9 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 286px;
+    position: absolute;
+    top: 179px;
+  }
+  
+  .about-us .arrow-8 {
+    height: 1px;
+    margin-left: -16774px;
+    margin-top: -2870.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .group-12 {
+    height: 220px;
+    left: 267px;
+    position: absolute;
+    top: 244px;
+    width: 239px;
+  }
+  
+  .about-us .overlap-group-2 {
+    -webkit-backdrop-filter: blur(46px) brightness(100%);
+    backdrop-filter: blur(46px) brightness(100%);
+    background-color: #ffffff3b;
+    border-radius: 10px;
+    height: 220px;
+    position: relative;
+    width: 237px;
+  }
+  
+  .about-us .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 30.5px;
+    position: absolute;
+    top: 109px;
+    width: 205px;
+  }
+  
+  .about-us .frame-10 {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    left: 19px;
+    position: absolute;
+    top: 179px;
+  }
+  
+  .about-us .arrow-9 {
+    height: 1px;
+    margin-left: -16774px;
+    margin-top: -3114.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .group-13 {
+    height: 220px;
+    left: 528px;
+    position: absolute;
+    top: 0;
+    width: 241px;
+  }
+  
+  .about-us .overlap-group-3 {
+    height: 60px;
+    left: 16px;
+    position: absolute;
+    top: 109px;
+    width: 196px;
+  }
+  
+  .about-us .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 30.5px;
+    position: absolute;
+    top: 0;
+    width: 196px;
+  }
+  
+  .about-us .arrow-10 {
+    height: 1px;
+    margin-left: -17035px;
+    margin-top: -2870.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 544px;
+    letter-spacing: 0;
+    line-height: 30.5px;
+    position: absolute;
+    top: 109px;
+    width: 196px;
+  }
+  
+  .about-us .group-14 {
+    height: 220px;
+    left: 528px;
+    position: absolute;
+    top: 244px;
+    width: 239px;
+  }
+  
+  .about-us .text-wrapper-18 {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 30.5px;
+    position: absolute;
+    top: 109px;
+    width: 196px;
+  }
+  
+  .about-us .arrow-11 {
+    height: 1px;
+    margin-left: -17035px;
+    margin-top: -3114.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .pencil-ruler {
+    height: 74px;
+    left: -16343px;
+    object-fit: cover;
+    position: absolute;
+    top: 508px;
+    width: 74px;
+  }
+  
+  .about-us .image-5 {
+    height: 74px;
+    left: -16085px;
+    object-fit: cover;
+    position: absolute;
+    top: 508px;
+    width: 74px;
+  }
+  
+  .about-us .image-6 {
+    height: 74px;
+    left: -16346px;
+    position: absolute;
+    top: 752px;
+    width: 66px;
+  }
+  
+  .about-us .image-7 {
+    height: 74px;
+    left: -16090px;
+    object-fit: cover;
+    position: absolute;
+    top: 752px;
+    width: 74px;
+  }
+  
+  .about-us .frame-11 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 25px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 1015px;
+    padding: 10px 30px;
+    position: absolute;
+    top: 2717px;
+  }
+  
+  .about-us .arrow-12 {
+    height: 1px;
+    margin-left: -17192px;
+    margin-top: -4107.5px;
+    object-fit: cover;
+    position: relative;
+    width: 22px;
+  }
+  
+  .about-us .text-wrapper-19 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 822px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    text-align: center;
+    top: 2019px;
+    width: 547px;
+  }
+  
+  .about-us .text-wrapper-20 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 877px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 1940px;
+    white-space: nowrap;
+  }
+  
+  .about-us .ellipse-12 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 59px;
+    height: 118px;
+    left: 1757px;
+    opacity: 0.8;
+    position: absolute;
+    top: 2740px;
+    width: 118px;
+  }
+  
+  .about-us .group-15 {
+    height: 290px;
+    left: -16629px;
+    position: absolute;
+    top: 2963px;
+    width: 512px;
+  }
+  
+  .about-us .group-16 {
+    height: 290px;
+    left: -15010px;
+    position: absolute;
+    top: 3397px;
+    width: 512px;
+  }
+  
+  .about-us .overlap-5 {
+    height: 1596px;
+    left: -148px;
+    position: absolute;
+    top: 4785px;
+    width: 1635px;
+  }
+  
+  .about-us .group-17 {
+    height: 1596px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1596px;
+  }
+  
+  .about-us .overlap-6 {
+    height: 1027px;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 1442px;
+  }
+  
+  .about-us .overlap-7 {
+    height: 644px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1442px;
+  }
+  
+  .about-us .ellipse-13 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 152px;
+    filter: blur(252px);
+    height: 304px;
+    left: 0;
+    position: absolute;
+    top: 340px;
+    width: 304px;
+  }
+  
+  .about-us .frame-12 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 40px;
+    height: 359px;
+    left: 302px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1140px;
+  }
+  
+  .about-us .image-8 {
+    height: 714px;
+    left: -16900px;
+    position: absolute;
+    top: -4619px;
+    width: 763px;
+  }
+  
+  .about-us .overlap-8 {
+    height: 324px;
+    left: 685px;
+    position: absolute;
+    top: -133px;
+    width: 563px;
+  }
+  
+  .about-us .frame-13 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 11px;
+    left: 0;
+    position: absolute;
+    top: 194px;
+  }
+  
+  .about-us .text-wrapper-21 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: relative;
+    width: 376px;
+  }
+  
+  .about-us .ellipse-14 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 127.5px;
+    height: 255px;
+    left: 308px;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 255px;
+  }
+  
+  .about-us .overlap-group-4 {
+    border-radius: 65px;
+    height: 49px;
+    left: 685px;
+    position: absolute;
+    top: 205px;
+    width: 344px;
+  }
+  
+  .about-us .text-wrapper-22 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .about-us .rectangle-11 {
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 65px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 344px;
+  }
+  
+  .about-us .frame-14 {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 55px;
+    display: inline-flex;
+    gap: 16px;
+    justify-content: center;
+    left: 238px;
+    padding: 10px 32px;
+    position: absolute;
+    top: 4px;
+  }
+  
+  .about-us .text-wrapper-23 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-fill-color: transparent;
+    width: fit-content;
+  }
+  
+  .about-us .ellipse-15 {
+    background-color: #ffffff;
+    border-radius: 70.2px;
+    filter: blur(146px);
+    height: 140px;
+    left: -34px;
+    position: absolute;
+    top: -47px;
+    transform: rotate(-40.06deg);
+    width: 140px;
+  }
+  
+  .about-us .ellipse-16 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 54.5px;
+    height: 109px;
+    left: 560px;
+    opacity: 0.8;
+    position: absolute;
+    top: 312px;
+    width: 109px;
+  }
+  
+  .about-us .group-18 {
+    height: 503px;
+    left: 473px;
+    position: absolute;
+    top: 524px;
+    width: 800px;
+  }
+  
+  .about-us .text-wrapper-24 {
+    color: #ffffff;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 349px;
+    letter-spacing: 0;
+    line-height: 60.9px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .about-us .frame-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 23px;
+    position: absolute;
+    top: 105px;
+  }
+  
+  .about-us .frame-15 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 78px;
+    position: relative;
+  }
+  
+  .about-us .text-wrapper-25 {
+    color: #ffffff;
+    font-family: "Nunito-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    margin-top: -1px;
+    position: relative;
+    width: 655px;
+  }
+  
+  .about-us .group-19 {
+    height: 1px;
+    margin-left: -16244px;
+    margin-top: -5057.5px;
+    position: relative;
+    width: 18.5px;
+  }
+  
+  .about-us .text-wrapper-26 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    position: absolute;
+    top: 142px;
+    width: 645px;
+  }
+  
+  .about-us .vector-2 {
+    height: 1px;
+    left: -16629px;
+    object-fit: cover;
+    position: absolute;
+    top: 711px;
+    width: 796px;
+  }
+  
+  .about-us .frame-16 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 0;
+    position: absolute;
+    top: 243px;
+  }
+  
+  .about-us .text-wrapper-27 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.6px;
+    margin-top: -1px;
+    position: relative;
+    width: 655px;
+  }
+  
+  .about-us .group-20 {
+    height: 18.5px;
+    margin-left: -16243.25px;
+    margin-top: -5204.75px;
+    position: relative;
+    width: 18.5px;
+  }
+  
+  .about-us .vector-3 {
+    height: 1px;
+    margin-left: -16954px;
+    margin-top: -5163px;
+    object-fit: cover;
+    position: relative;
+    width: 796px;
+  }
+  
+  .about-us .frame-17 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 0;
+    position: absolute;
+    top: 314px;
+  }
+  
+  .about-us .group-21 {
+    height: 18.5px;
+    margin-left: -16243.25px;
+    margin-top: -5275.75px;
+    position: relative;
+    width: 18.5px;
+  }
+  
+  .about-us .vector-4 {
+    height: 1px;
+    margin-left: -16954px;
+    margin-top: -5234px;
+    object-fit: cover;
+    position: relative;
+    width: 796px;
+  }
+  
+  .about-us .frame-18 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 0;
+    position: absolute;
+    top: 385px;
+  }
+  
+  .about-us .group-22 {
+    height: 18.5px;
+    margin-left: -16243.25px;
+    margin-top: -5346.75px;
+    position: relative;
+    width: 18.5px;
+  }
+  
+  .about-us .vector-5 {
+    height: 1px;
+    margin-left: -16954px;
+    margin-top: -5305px;
+    object-fit: cover;
+    position: relative;
+    width: 796px;
+  }
+  
+  .about-us .frame-19 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 18px;
+    left: 0;
+    position: absolute;
+    top: 456px;
+  }
+  
+  .about-us .group-23 {
+    height: 18.5px;
+    margin-left: -16243.25px;
+    margin-top: -5417.75px;
+    position: relative;
+    width: 18.5px;
+  }
+  
+  .about-us .vector-6 {
+    height: 1px;
+    margin-left: -16954px;
+    margin-top: -5376px;
+    object-fit: cover;
+    position: relative;
+    width: 796px;
+  }
+  
+  .about-us .image-9 {
+    height: 510px;
+    left: -16327px;
+    position: absolute;
+    top: 492px;
+    width: 655px;
+  }
+  
+  .about-us .overlap-9 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    height: 312px;
+    left: 152px;
+    position: absolute;
+    top: 1284px;
+    width: 1440px;
+  }
+  
+  .about-us .vector-7 {
+    height: 1px;
+    left: -16477px;
+    object-fit: cover;
+    position: absolute;
+    top: 2019px;
+    width: 1440px;
+  }
+  
+  .about-us .image-10 {
+    height: 54px;
+    left: -15784px;
+    object-fit: cover;
+    position: absolute;
+    top: 1804px;
+    width: 54px;
+  }
+  
+  .about-us .ellipse-17 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 47px;
+    height: 94px;
+    left: 1541px;
+    opacity: 0.8;
+    position: absolute;
+    top: 1017px;
+    width: 94px;
+  }
+  
+  .about-us .ellipse-18 {
+    height: 108px;
+    left: -16679px;
+    position: absolute;
+    top: 3534px;
+    width: 108px;
+  }
+  
+  .about-us .rectangle-12 {
+    height: 263px;
+    left: -16475px;
+    position: absolute;
+    top: 4509px;
+    width: 364px;
+  }
+  
+  .about-us .rectangle-13 {
+    height: 263px;
+    left: -15705px;
+    position: absolute;
+    top: 4801px;
+    width: 364px;
+  }
+  
+  .about-us .rectangle-14 {
+    height: 263px;
+    left: -15796px;
+    position: absolute;
+    top: 4509px;
+    width: 455px;
+  }
+  
+  .about-us .rectangle-15 {
+    height: 263px;
+    left: -16184px;
+    position: absolute;
+    top: 4801px;
+    width: 455px;
+  }
+  
+  .about-us .rectangle-16 {
+    height: 263px;
+    left: -16087px;
+    position: absolute;
+    top: 4509px;
+    width: 267px;
+  }
+  
+  .about-us .rectangle-17 {
+    height: 263px;
+    left: -16475px;
+    position: absolute;
+    top: 4801px;
+    width: 267px;
+  }
+  
+  .about-us .group-24 {
+    height: 60px;
+    left: 315px;
+    position: absolute;
+    top: 14px;
+    width: 979px;
+  }
+  
+  .about-us .overlap-10 {
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 277px;
+  }
+  
+  .about-us .text-wrapper-28 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 97px;
+    letter-spacing: 0;
+    line-height: 20.3px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .about-us .text-wrapper-29 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 209px;
+    letter-spacing: 0;
+    line-height: 20.3px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .about-us .group-25 {
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 259px;
+  }
+  
+  .about-us .text-wrapper-30 {
+    color: #ffffff;
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 20.3px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .about-us .rectangle-18 {
+    background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
+    border-radius: 39px;
+    box-shadow: 0px 0px 1px #ffffffa8;
+    height: 3px;
+    left: 229px;
+    position: absolute;
+    top: 24px;
+    width: 28px;
+  }
+  
+  .about-us .frame-20 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 52px;
+    left: 533px;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .about-us .frame-21 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 48px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 819px;
+    padding: 12px 24px;
+    position: absolute;
+    top: 7px;
+  }
+  
+  .about-us .text-wrapper-31 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .about-us .group-26 {
+    height: 60px;
+    left: 331px;
+    position: absolute;
+    top: 0;
+    width: 154px;
+  }
+  
+  .about-us .overlap-group-5 {
+    height: 60px;
+    position: relative;
+    width: 148px;
+  }
+  
+  .about-us .text-wrapper-32 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    background-clip: text;
+    color: transparent;
+    filter: blur(7.56px);
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 43.8px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-fill-color: transparent;
+    top: 0;
+  }
+  
+  .about-us .text-wrapper-33 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%
+    );
+    background-clip: text;
+    color: transparent;
+    filter: blur(9.24px);
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 43.8px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-fill-color: transparent;
+    top: 0;
+  }
+  
+  .about-us .text-wrapper-34 {
+    color: #00eaff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 43.8px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+  }
+  

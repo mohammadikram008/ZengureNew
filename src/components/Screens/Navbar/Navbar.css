@@ -1,0 +1,39 @@
+.group-40 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+ 
+  .group-40 .nav-item{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 75%;
+  }
+  .group-40 .nav-item .nav-item-link{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .logo-name{
+    color: #00eaff;
+    font-weight: 800;
+    font-size: 22px;
+    /* outline: #00eaff; */
+    /* transition: 1s; */
+    box-shadow: 0px 0px 50px rgb(0, 255, 255);
+
+  }
+   .text-wrapper-46 {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
