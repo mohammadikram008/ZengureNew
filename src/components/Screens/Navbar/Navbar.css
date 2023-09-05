@@ -37,3 +37,27 @@
     position: relative;
     width: fit-content;
   }
+  .frame {
+    align-items: center;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 48px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  

@@ -1,17 +1,19 @@
 import React, { Fragment } from 'react'
+import {Link} from 'react-router-dom'
 import './OurServices.css'
 import  image22 from './image22.png'
 import image34 from './image34.png'
 import pencil_ruler from './pencil-ruler.png'
 import arrow from './Arrow1.png'
 import Footer from '../Footer/Index'
+import logo from '../../assets/images/logo.png'
 const Index = () => {
   return (
    <Fragment>
      <div className="services-page">
       <div className="div">
         <div className="overlap">
-          {/* <img className="rectangle" alt="Rectangle" src="rectangle-58.png" /> */}
+          {/* <div className="rectangle" /> */}
           {/* <img className="group" alt="Group" src="group-35076.png" /> */}
           <div className="ellipse" />
           <div className="ellipse-2" />
@@ -19,7 +21,7 @@ const Index = () => {
           <div className="rectangle-2" />
           <div className="rectangle-3" />
           <div className="rectangle-4" />
-          <div className="frame">
+          <div className="frame-101">
             <div className="frame-2">
               <div className="text-wrapper">Our Services</div>
               <p className="p">
@@ -32,7 +34,7 @@ const Index = () => {
             <div className="group-2">
               <div className="frame-3">
                 <div className="text-wrapper-2">Read More</div>
-                <img className="arrow" alt="Arrow" src={arrow}/>
+                <img className="arrow" alt="Arrow" src={arrow} />
               </div>
               <div className="text-wrapper-3">Graphic Designing</div>
               <p className="branding-design">
@@ -68,33 +70,33 @@ const Index = () => {
               <div className="group-4" />
             </div>
           </div>
-          {/* <div className="ellipse-4" /> */}
+          <div className="ellipse-4" />
           <div className="pencil-ruler-wrapper">
             <img className="pencil-ruler" alt="Pencil ruler" src={pencil_ruler} />
           </div>
           <img className="image" alt="Image" src={image22} />
           <img className="img" alt="Image" src={image34} />
-          {/* <div className="overlap-wrapper">
+          <div className="overlap-wrapper">
             <div className="overlap-group">
-              <img className="vector" alt="Vector" src="vector-7.svg" />
-              <img className="image-2" alt="Image" src="image-40.png" />
+              {/* <img className="vector" alt="Vector" src="vector-7.svg" /> */}
+              <img className="image-2" alt="Image" src={logo} />
               <p className="text-wrapper-7">
                 Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin
               </p>
               <div className="text-wrapper-8">@ Copyright 2023</div>
               <div className="frame-5">
-                <div className="text-wrapper-9">Home</div>
-                <div className="text-wrapper-9">Services</div>
-                <div className="text-wrapper-9">About Us</div>
-                <div className="text-wrapper-9">Contact Us</div>
-                <div className="text-wrapper-9">FAQ</div>
+               <div className="text-wrapper-9"><Link to='/' className='nav-item-link'>Home</Link> </div>
+                <div className="text-wrapper-9"> <Link to='/ourservices' className='nav-item-link'>Services</Link></div>
+                <div className="text-wrapper-9"> <Link to='/aboutus' className='nav-item-link'>AboutUs</Link></div>
+                <div className="text-wrapper-9"> <Link to='/contactus' className='nav-item-link'>ContactUs</Link></div>
+                <div className="text-wrapper-9"><Link to='/' className='nav-item-link'>FAQ</Link></div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="overlap-2">
-          {/* <div className="rectangle-5" />
-          <div className="rectangle-6" /> */}
+          <div className="rectangle-5" />
+          <div className="rectangle-6" />
           <div className="group-6">
             <div className="frame-6">
               <div className="frame-7">
@@ -104,12 +106,12 @@ const Index = () => {
                   Felis ornare
                 </p>
               </div>
-              {/* <div className="frame-8">
+              <div className="frame-8">
                 <div className="text-wrapper-2">See More</div>
                 <img className="arrow-2" alt="Arrow" src="arrow-3.svg" />
-              </div> */}
+              </div>
             </div>
-            {/* <div className="overlap-group-2">
+            <div className="overlap-group-2">
               <div className="group-7">
                 <div className="group-8">
                   <div className="frame-9">
@@ -122,8 +124,8 @@ const Index = () => {
                   <img className="group-9" alt="Group" src="group-30-2.png" />
                 </div>
               </div>
-            </div> */}
-            {/* <div className="group-10">
+            </div>
+            <div className="group-10">
               <div className="frame-9">
                 <div className="text-wrapper-2">Read More</div>
                 <img className="arrow-4" alt="Arrow" src="arrow-4.svg" />
@@ -142,10 +144,10 @@ const Index = () => {
               <div className="text-wrapper-12">Ui/Ux Designing</div>
               <p className="text-wrapper-13">Felis ornare posuere dict nulla tempus vulput.</p>
               <img className="group-9" alt="Group" src="image.png" />
-            </div> */}
+            </div>
           </div>
-          {/* <div className="ellipse-5" /> */}
-          {/* <div className="group-12">
+          <div className="ellipse-5" />
+          <div className="group-12">
             <div className="frame-10">
               <p className="felis-ornare-posuere">
                 Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate
@@ -163,14 +165,14 @@ const Index = () => {
           <div className="group-13">
             <div className="image-3" />
             <img className="image-4" alt="Image" src="image-20.png" />
-          </div> */}
-          {/* <div className="rectangle-8" />
+          </div>
+          <div className="rectangle-8" />
           <div className="rectangle-9" />
           <div className="ellipse-6" />
           <div className="ellipse-7" />
           <div className="ellipse-8" />
-          <div className="ellipse-9" /> */}
-          {/* <div className="group-14">
+          <div className="ellipse-9" />
+          <div className="group-14">
             <div className="group-15">
               <div className="frame-10">
                 <div className="text-wrapper-10">Our Process</div>
@@ -319,7 +321,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <img className="image-9" alt="Image" src="image-18.png" />
+            <img className="image-9" alt="Image" src={logo} />
             <div className="overlap-8">
               <p className="text-wrapper-7">
                 Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin
@@ -337,9 +339,9 @@ const Index = () => {
             <img className="image-10" alt="Image" src="image-3.png" />
           </div>
           <div className="ellipse-15" />
-        </div> */}
-        {/* <img className="ellipse-16" alt="Ellipse" src="ellipse-46.svg" />
-        <img className="rectangle-13" alt="Rectangle" src="rectangle-49.svg" />
+        </div>
+        {/* <img className="ellipse-16" alt="Ellipse" src="ellipse-46.svg" /> */}
+        {/* <img className="rectangle-13" alt="Rectangle" src="rectangle-49.svg" />
         <img className="rectangle-14" alt="Rectangle" src="rectangle-55.svg" />
         <img className="rectangle-15" alt="Rectangle" src="rectangle-50.svg" />
         <img className="rectangle-16" alt="Rectangle" src="rectangle-56.svg" />
@@ -369,7 +371,6 @@ const Index = () => {
             </div>
           </div>
         </div> */}
-        </div>
       </div>
     </div>
     {/* <Footer/> */}

@@ -293,6 +293,9 @@
     border-radius: 7px;
     height: 48px;
     position: relative;
+    background-color: transparent;
+    color: white;
+    text-align: center;
     width: 242px;
   }
   
@@ -321,6 +324,8 @@
     border-color: #ffffffb5;
     border-radius: 7px;
     height: 141px;
+    background-color: transparent;
+    color: white;
     position: relative;
     width: 511px;
   }
@@ -391,6 +396,7 @@
   .single-services-page .rectangle-4 {
     border: 1px solid;
     border-color: #ffffff;
+  text-align: center;
     border-radius: 2px;
     height: 16px;
     position: relative;

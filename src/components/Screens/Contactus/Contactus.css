@@ -153,7 +153,7 @@
   width: 446px;
 }
 
-.contact-form .frame {
+.contact-form .frame-199 {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -180,8 +180,11 @@
 .contact-form .rectangle-2 {
   border: 1px solid;
   border-color: #ffffff;
+  background-color: transparent;
   border-radius: 71px;
-  height: 53px;
+  height: 38px;
+  color: white;
+  text-align: center;
   position: relative;
   width: 398px;
 }
@@ -214,11 +217,12 @@
   border-radius: 55px;
   display: flex;
   gap: 16px;
+  border: 0px;
   left: 23px;
   padding: 15px 30px;
   position: absolute;
   top: 381px;
-  width: 330px;
+  width: 400px;
 }
 
 .contact-form .text-wrapper-3 {
@@ -1588,4 +1592,16 @@
   position: absolute;
   top: 4801px;
   width: 267px;
+}
+.text-wrapper-2 .nav-item{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 75%;
+}
+.text-wrapper-2  .nav-item-link{
+  text-decoration: none;
+  color: #ffffff;
 }

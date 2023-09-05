@@ -1873,4 +1873,15 @@
     text-align: center;
     top: 0;
   }
-  
+  .text-wrapper-7 .nav-item{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 75%;
+  }
+  .text-wrapper-7  .nav-item-link{
+    text-decoration: none;
+    color: #ffffff;
+  }

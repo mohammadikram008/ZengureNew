@@ -4,6 +4,8 @@ import image20 from './image20.png'
 import image37 from './image37.png'
 import image39 from './image39.png'
 import arrow from './Arrow1.png'
+import logo from '../../assets/images/logo.png'
+import {Link} from 'react-router-dom'
 const Index = () => {
   return (
     <Fragment>
@@ -21,7 +23,7 @@ const Index = () => {
           <div className="ellipse-5" />
           <div className="ellipse-6" />
           <div className="group-2">
-            <div className="frame">
+            <div className="frame-102">
               <p className="text-wrapper">
                 At Zengur, we are more than just a web development and design agency – we are your trusted partner in
                 leveraging the digital landscape to elevate your business. With a passion for innovation and a
@@ -58,16 +60,16 @@ const Index = () => {
           <img className="image-2" alt="Image" src={image37} />
           <div className="overlap-group-wrapper">
             <div className="overlap-2">
-              <img className="vector" alt="Vector" src="vector-7.svg" />
-              <img className="image-3" alt="Image" src={image39} />
+              {/* <img className="vector" alt="Vector" src="vector-7.svg" /> */}
+              <img className="image-3" alt="Image" src={logo} />
               <p className="p">Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin</p>
               <div className="text-wrapper-6">@ Copyright 2023</div>
               <div className="frame-3">
-                <div className="text-wrapper-7">Home</div>
-                <div className="text-wrapper-7">Services</div>
-                <div className="text-wrapper-7">About Us</div>
-                <div className="text-wrapper-7">Contact Us</div>
-                <div className="text-wrapper-7">FAQ</div>
+                <div className="text-wrapper-7"><Link to='/' className='nav-item-link'>Home</Link> </div>
+                <div className="text-wrapper-7"> <Link to='/ourservices' className='nav-item-link'>Services</Link></div>
+                <div className="text-wrapper-7"> <Link to='/aboutus' className='nav-item-link'>AboutUs</Link></div>
+                <div className="text-wrapper-7"> <Link to='/contactus' className='nav-item-link'>ContactUs</Link></div>
+                <div className="text-wrapper-7"><Link to='/' className='nav-item-link'>FAQ</Link></div>
               </div>
             </div>
           </div>

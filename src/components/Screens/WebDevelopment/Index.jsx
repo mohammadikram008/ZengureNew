@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import './Graphic.css'
+import './Webdev.css'
 import Frame from '../../assets/DesigingImages/Frame.png'
 import Group35096 from '../../assets/DesigingImages/Group35096.png'
 import Group35104 from '../../assets/DesigingImages/Group35104.png'
@@ -129,7 +129,7 @@ const Index = () => {
             <div className="frame-9">
               <div className="frame-10">
                 <div className="frame-8">
-                  <div className="text-wrapper-7">Graphic Designing</div>
+                  <div className="text-wrapper-7">Web Designing</div>
                   <p className="text-wrapper-8">
                     A web design service creates visually appealing and user-friendly websites, merging creativity and
                     functionality to showcase brands effectively, engage users, and attain online goals, ultimately

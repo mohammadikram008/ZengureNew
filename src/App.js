@@ -8,6 +8,8 @@ import Navbar from './components/Screens/Navbar/Index'
 import OurServices from './components/Screens/OurServices/Index'
 import AboutUs from './components/Screens/AboutUs/Index'
 import GraphicDesiging from './components/Screens/GraphicDesiging/Index'
+import WebDev from './components/Screens/WebDevelopment/Index'
+import SEO from './components/Screens/SEO/Index'
 function App() {
   return (
     <Fragment>
@@ -20,6 +22,8 @@ function App() {
         <Route path='/ourservices' element={<OurServices/>}></Route>
         <Route path='/aboutus' element={<AboutUs/>}></Route>
         <Route path='/graphic' element={<GraphicDesiging/>}></Route>
+        <Route path='/webdev' element={<WebDev/>}></Route>
+        <Route path='/seo' element={<SEO/>}></Route>
       </Routes>
       {/* <Footer/> */}
     
