@@ -72,9 +72,9 @@ const Index = () => {
                     <div className="text-wrapper-2">Company</div>
                     <input name='name' type='text' className="rectangle-2" />
                   </div>
-                  <div className="div-wrapper">
+                  <button className="div-wrapper">
                     <div className="text-wrapper-3">Send Message</div>
-                  </div>
+                  </button>
                 </div>
                 <div className="frame-6">
                   <div className="frame-7">
@@ -113,12 +113,9 @@ const Index = () => {
             </div>
             <div className="frame-wrapper">
               <div className="frame-8">
-                <p className="p">Why Web design is important for a business</p>
+                <p className="p">Why SEO is important for a business </p>
                 <p className="text-wrapper-6">
-                  It serves as a digital storefront and a primary point of interaction with customers in the online world.
-                  A well-designed website creates a positive first impression, reflecting the professionalism and
-                  credibility of the brand. It enhances user experience by ensuring easy navigation, clear presentation of
-                  information, and mobile responsiveness, which all contribute to keeping visitors engaged.
+                SEO is your online compass. It guides traffic, fuels credibility, and ignites competitiveness. Navigate the digital landscape with SEO as your North Star 
                 </p>
               </div>
             </div>
@@ -131,10 +128,7 @@ const Index = () => {
                 <div className="frame-8">
                   <div className="text-wrapper-7">SEO</div>
                   <p className="text-wrapper-8">
-                    A web design service creates visually appealing and user-friendly websites, merging creativity and
-                    functionality to showcase brands effectively, engage users, and attain online goals, ultimately
-                    expanding businesses. By attracting traffic to the brand name, it aids in reaching new customers and
-                    broadening the customer base.
+                  Boost your online visibility and drive targeted traffic with effective Search Engine Optimization (SEO) strategies. Our expert team ensures your website ranks higher on search engines, attracting potential customers to your business. Stay ahead of the competition and maximize your online presence with our proven SEO techniques.
                   </p>
                 </div>
               </div>
@@ -148,12 +142,10 @@ const Index = () => {
             <div className="ellipse-6" />
             <div className="frame-11">
               <div className="frame-8">
-                <p className="text-wrapper-10">How response web design improves user experience</p>
+                <p className="text-wrapper-10">Why SEO is important for a business</p>
                 <p className="text-wrapper-6">
-                  Responsive web design enhances user experience by adjusting a website&#39;s layout and content to suit
-                  different devices and screen sizes. This adaptability ensures a smooth browsing experience across
-                  desktops, tablets, and smartphones, maintaining consistent visuals and readability without requiring
-                  users to zoom or scroll excessively.
+                SEO is vital. It heightens online visibility, draws targeted traffic, and builds credibility. Its cost-effectiveness, lasting impact, and edge over competitors make it a digital marketing cornerstone. Stay visible, stay relevant – embrace SEO.
+
                 </p>
               </div>
             </div>
@@ -170,12 +162,10 @@ const Index = () => {
               <div className="frame-12">
                 <div className="text-wrapper-11">What We Do Offer</div>
                 <p className="text-wrapper-12">
-                  Our web development service offers tailored solutions for creating responsive and user-friendly
-                  websites. Our team specializes in front-end and back-end development, UI design, CMS integration, and
-                  e-commerce functionality.
+                We offer a comprehensive suite of SEO services designed to boost your online presence and visibility. Our services encompass keyword research, on-page optimization, technical SEO, content strategy, and link building. With a focus on data-driven strategies, we tailor our SEO efforts to align with your specific goals and industry requirements. Whether you're looking to improve search engine rankings, drive organic traffic, or enhance your website's performance, our experienced team is here to deliver results-driven SEO solutions.
                 </p>
               </div>
-              <p className="perks-of-responsive">Perks Of Responsive Web Design!</p>
+              <p className="perks-of-responsive">Perks Of SEO!</p>
               {/* <div className="rectangle-9" />
             <div className="ellipse-10" /> */}
 

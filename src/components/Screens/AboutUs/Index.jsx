@@ -12,7 +12,7 @@ const Index = () => {
         <div className="about-us">
       <div className="div">
         <div className="overlap">
-          {/* <div className="rectangle" /> */}
+          <div className="rectangle" />
           <div className="ellipse" />
           <div className="ellipse-2" />
           <div className="ellipse-3" />

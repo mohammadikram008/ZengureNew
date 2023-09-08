@@ -10,6 +10,9 @@ import AboutUs from './components/Screens/AboutUs/Index'
 import GraphicDesiging from './components/Screens/GraphicDesiging/Index'
 import WebDev from './components/Screens/WebDevelopment/Index'
 import SEO from './components/Screens/SEO/Index'
+import WebForm from './components/Forms/WebDevelopmentFrom/Index'
+import SEOFrom from './components/Forms/SEOFrom/Index' 
+import GraphicForm from './components/Forms/GraphicDesigningForm/Index'
 function App() {
   return (
     <Fragment>
@@ -24,6 +27,9 @@ function App() {
         <Route path='/graphic' element={<GraphicDesiging/>}></Route>
         <Route path='/webdev' element={<WebDev/>}></Route>
         <Route path='/seo' element={<SEO/>}></Route>
+        <Route path='/webform' element={<WebForm/>}></Route>
+        <Route path='/seoform' element={<SEOFrom/>}></Route>
+        <Route path='/graphicform' element={<GraphicForm/>}></Route>
       </Routes>
       {/* <Footer/> */}
     

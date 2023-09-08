@@ -72,9 +72,9 @@ const Index = () => {
                     <div className="text-wrapper-2">Company</div>
                     <input name='name' type='text' className="rectangle-2" />
                   </div>
-                  <div className="div-wrapper">
+                  <button className="div-wrapper">
                     <div className="text-wrapper-3">Send Message</div>
-                  </div>
+                  </button>
                 </div>
                 <div className="frame-6">
                   <div className="frame-7">
@@ -113,12 +113,9 @@ const Index = () => {
             </div>
             <div className="frame-wrapper">
               <div className="frame-8">
-                <p className="p">Why Web design is important for a business</p>
+                <p className="p">Why Graphic design is important for a business</p>
                 <p className="text-wrapper-6">
-                  It serves as a digital storefront and a primary point of interaction with customers in the online world.
-                  A well-designed website creates a positive first impression, reflecting the professionalism and
-                  credibility of the brand. It enhances user experience by ensuring easy navigation, clear presentation of
-                  information, and mobile responsiveness, which all contribute to keeping visitors engaged.
+                Designing is vital for businesses as it conveys brand identity, fosters recognition, and enhances communication. It improves user experience, builds trust, and sets businesses apart in a competitive market. Invest in design for effective growth and customer engagement.
                 </p>
               </div>
             </div>
@@ -131,10 +128,7 @@ const Index = () => {
                 <div className="frame-8">
                   <div className="text-wrapper-7">Graphic Designing</div>
                   <p className="text-wrapper-8">
-                    A web design service creates visually appealing and user-friendly websites, merging creativity and
-                    functionality to showcase brands effectively, engage users, and attain online goals, ultimately
-                    expanding businesses. By attracting traffic to the brand name, it aids in reaching new customers and
-                    broadening the customer base.
+                  Unleash Creativity through Graphic Designing: Transform ideas into visual masterpieces with our expert graphic designing services. Our skilled designers craft impactful logos, engaging marketing collateral, and stunning layouts that captivate audiences. From concept to execution, we blend innovation with design to make your brand stand out. Elevate your visual identity with our tailored graphic designing solutions.
                   </p>
                 </div>
               </div>
@@ -148,12 +142,10 @@ const Index = () => {
             <div className="ellipse-6" />
             <div className="frame-11">
               <div className="frame-8">
-                <p className="text-wrapper-10">How response web design improves user experience</p>
+                <p className="text-wrapper-10">How response Graphic design improves user experience</p>
                 <p className="text-wrapper-6">
-                  Responsive web design enhances user experience by adjusting a website&#39;s layout and content to suit
-                  different devices and screen sizes. This adaptability ensures a smooth browsing experience across
-                  desktops, tablets, and smartphones, maintaining consistent visuals and readability without requiring
-                  users to zoom or scroll excessively.
+                  
+Graphic design enhances user experience by improving visual aesthetics, ensuring content clarity and readability, establishing a clear hierarchy for navigation, fostering emotional connections through design elements, and maintaining consistency and accessibility for a more engaging and inclusive interaction with digital products and content.
                 </p>
               </div>
             </div>
@@ -170,12 +162,10 @@ const Index = () => {
               <div className="frame-12">
                 <div className="text-wrapper-11">What We Do Offer</div>
                 <p className="text-wrapper-12">
-                  Our web development service offers tailored solutions for creating responsive and user-friendly
-                  websites. Our team specializes in front-end and back-end development, UI design, CMS integration, and
-                  e-commerce functionality.
+                We provide a wide range of graphic design services, including logo design, branding, web design, print materials, and digital marketing assets. Our experienced team combines creativity and expertise to craft visually compelling and effective designs that align with your brand and objectives, helping you stand out in today's competitive market. Whether it's a logo refresh or a complete branding overhaul, we're here to bring your vision to life through stunning graphic design solutions.
                 </p>
               </div>
-              <p className="perks-of-responsive">Perks Of Responsive Web Design!</p>
+              <p className="perks-of-responsive">Perks Of Graphic Design!</p>
               {/* <div className="rectangle-9" />
             <div className="ellipse-10" /> */}
 

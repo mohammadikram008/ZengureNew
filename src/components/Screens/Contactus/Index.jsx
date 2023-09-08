@@ -1,21 +1,23 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import './Contactus.css'
-import bg_img from './image36.png'
+import bg_img from '../../assets/images/image36.png'
 import logo from '../../assets/images/logo.png'
+import ellipse34 from './Ellipse 34.png'
+import ellipse47 from './Ellipse 47.png'
 import Footer from '../Footer/Index'
 const Index = () => {
   return (
     <Fragment>
-      <div className="contact-form">
+      <div className="contactus-form">
         <div className="div">
           <div className="overlap">
-            <div className="rectangle" />
+            {/* <div className="rectangle" /> */}
             <img className="image" alt="Image" src={bg_img} />
             {/* <img className="group" alt="Group" src="group-35076.png" /> */}
-            <div className="ellipse" />
-            <div className="ellipse-2" />
-            <div className="ellipse-3" />
+            <img src={ellipse34} className="ellipse" />
+            <img src={ellipse47} className="ellipse-2" />
+            <img src={ellipse34} className="ellipse-3" />
             <div className="ellipse-4" />
             <p className="text-wrapper">Let Us Know You Better</p>
             <div className="group-2">

@@ -11,7 +11,7 @@
   height: 6381px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .home-page-DARK-MODE .overlap {
@@ -107,6 +107,7 @@
   padding: 12px 30px;
   position: absolute;
   top: 392px;
+  width: 10%;
 }
 
 .home-page-DARK-MODE .text-wrapper {
@@ -490,17 +491,23 @@
 }
 
 .home-page-DARK-MODE .group-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 681px;
-  left: 524px;
-  position: absolute;
+  /* left: 524px; */
+  position: relative;
   top: 881px;
-  width: 849px;
+  width: 100%;
 }
 
 .home-page-DARK-MODE .group-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 117px;
   left: 145px;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   width: 563px;
 }
@@ -510,14 +517,14 @@
   font-family: "Nunito-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  /* left: 0; */
   letter-spacing: 0;
   line-height: 28.1px;
   opacity: 0.7;
   position: absolute;
   text-align: center;
   top: 61px;
-  width: 559px;
+  width: 430px;
 }
 
 .home-page-DARK-MODE .text-wrapper-6 {
@@ -525,23 +532,23 @@
   font-family: "Nunito-Black", Helvetica;
   font-size: 48px;
   font-weight: 900;
-  left: 95px;
+  /* left: 95px; */
   letter-spacing: 0;
   line-height: 60.9px;
   position: absolute;
   top: 0;
   white-space: nowrap;
 }
-
 .home-page-DARK-MODE .frame-2 {
   align-items: center;
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
-  left: 0;
+  /* left: 0; */
   position: absolute;
   top: 157px;
 }
+
 
 .home-page-DARK-MODE .frame-3 {
   align-items: flex-start;
@@ -550,7 +557,17 @@
   gap: 24px;
   position: relative;
 }
+/* @media (max-width: 768px) {
+  .home-page-DARK-MODE .group-5 {
+    display: inline-block;
+  }
+  .home-page-DARK-MODE .frame-3 {
 
+flex-direction: column;
+margin-left: 200%;
+  }
+ 
+} */
 .home-page-DARK-MODE .group-7 {
   height: 250px;
   position: relative;
@@ -1842,6 +1859,7 @@
   padding: 10px 32px;
   position: absolute;
   top: 5px;
+  border: 0px;
 }
 
 .home-page-DARK-MODE .text-wrapper-35 {
@@ -2428,11 +2446,14 @@
   border-radius: 10px;
 }
 
-.container button {
+/* .container button {
   border: none;
   background-color: #007bff;
   color: #fff;
   padding: 5px 10px;
   border-radius: 10px;
   cursor: pointer;
+} */
+.choose-row{
+  display: flex;
 }

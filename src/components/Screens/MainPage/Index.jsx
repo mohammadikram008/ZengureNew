@@ -85,7 +85,7 @@ const Index = () => {
       <div className="home-page-DARK-MODE">
         <div className="div">
           <div className="overlap">
-            <div className="rectangle" />
+            {/* <div className="rectangle" /> */}
             {/* <div className="rectangle-2" /> */}
             <img src={rectangle28} className='rectangle-2'/>
             <div className="rectangle-3" />
@@ -140,8 +140,7 @@ const Index = () => {
             <div className="group-5">
               <div className="group-6">
                 <p className="text-wrapper-5">
-                  Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate
-                  Felis ornare posuere d
+                Choose us for our proven expertise and track record of delivering tailored, cutting-edge solutions that drive success.
                 </p>
                 <div className="text-wrapper-6">Why Choose Us</div>
               </div>
@@ -151,7 +150,7 @@ const Index = () => {
                     <div className="overlap-group-4">
                       <img className="image-3" alt="Image" src={image25} />
                       <p className="text-wrapper-7">
-                        Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus
+                      Creative and innovative designs captivate the viewer's imagination
                       </p>
                       <div className="text-wrapper-8">Creative and innovative designs</div>
                     </div>
@@ -159,7 +158,7 @@ const Index = () => {
                   <div className="group-7">
                     <div className="overlap-group-4">
                       <p className="text-wrapper-9">
-                        Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus
+                      An attention to detail and a user-centric approach form the cornerstone of effective design.
                       </p>
                       <img className="image-4" alt="Image" src={image29} />
                       <p className="text-wrapper-8">Attention to detail and user-centric approach</p>
@@ -168,8 +167,7 @@ const Index = () => {
                   <div className="group-8">
                     <div className="overlap-group-4">
                       <p className="text-wrapper-10">
-                        Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus dictum nulla
-                        tempus vu
+                      Timely project delivery ensures that goals are met, resources are optimized
                       </p>
                       <img className="image-5" alt="Image" src={image26} />
                       <div className="text-wrapper-11">Timely projects delivery</div>
@@ -180,7 +178,7 @@ const Index = () => {
                   <div className="group-7">
                     <div className="overlap-group-4">
                       <p className="text-wrapper-7">
-                        Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus
+                      Transparent communication and collaboration foster trust and synergy among team members.
                       </p>
                       <div className="text-wrapper-12">Transparent communication collaboration</div>
                       <img className="image-3" alt="Image" src={image28} />
@@ -189,7 +187,7 @@ const Index = () => {
                   <div className="group-8">
                     <div className="overlap-group-4">
                       <p className="text-wrapper-7">
-                        Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus
+                      Client satisfaction and testimonials are powerful indicators of a design's success.
                       </p>
                       <div className="text-wrapper-12">Client satisfaction and Testimonials</div>
                       <img className="image-6" alt="Image" src={image30} />
@@ -221,8 +219,7 @@ const Index = () => {
                   <div className="frame-5">
                     <div className="text-wrapper-15">Our Services</div>
                     <p className="text-wrapper-16">
-                      Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate
-                      Felis ornare
+                    Our services encompass comprehensive Web,graphic designing and SEO solutions, empowering your brand with captivating visuals and enhanced online visibility.
                     </p>
                   </div>
                   <div className="frame-6">
@@ -329,8 +326,7 @@ const Index = () => {
                   <div className="frame-10">
                     <div className="text-wrapper-15">Our Process</div>
                     <p className="text-wrapper-25">
-                      Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate
-                      Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu
+                    Our process is streamlined, beginning with a thorough consultation to understand your goals, followed by a tailored strategy development, and culminating in meticulous execution and ongoing optimization for optimal results.
                     </p>
                   </div>
                   <div className="frame-12">
