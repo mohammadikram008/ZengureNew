@@ -39,6 +39,7 @@ import rectangle56 from './Rectangle 56.png'
 import rectangle57 from './Rectangle 57.png'
 import rectangle28 from './Rectangle 28.png'
 import ellipse46 from './Ellipse 46.png'
+import { Row, Col } from 'reactstrap';
 
 const Index = () => {
   const openWhatsAppChat = () => {
@@ -83,10 +84,230 @@ const Index = () => {
   return (
     <Fragment>
       <div className="home-page-DARK-MODE">
-        <div className="div">
+        {/* whychoose us section */}
+        <div className='whychooseus'>
+          <h1>Why Choose Us</h1>
+          <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare posuere d</p>
+        </div>
+        <Row className='m-0'>
+          <Col md='3'></Col>
+          <Col md='2'>
+            <div className='whychooseus-card'>
+              <img src={image25} alt='image' />
+              <h5>Creative and innovative designs</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+            </div>
+
+          </Col>
+          <Col md='2'>
+            <div className='whychooseus-card'>
+              <img src={image29} alt='image' />
+              <h5>Creative and innovative designs</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+            </div>
+
+          </Col>
+          <Col md='2'>
+            <div className='whychooseus-card'>
+              <img src={image26} alt='image' />
+              <h5>Creative and innovative designs</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+            </div>
+
+          </Col>
+          <Col md='3'></Col>
+        </Row>
+        <Row className='m-0'>
+          <Col md='4'></Col>
+          <Col md='2'>
+            <div className='whychooseus-card'>
+              <img src={image28} alt='image' />
+              <h5>Creative and innovative designs</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+            </div>
+          </Col>
+          <Col md='2'>
+            <div className='whychooseus-card'>
+              <img src={image30} alt='image' />
+              <h5>Creative and innovative designs</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+            </div>
+          </Col>
+          <Col md='4'></Col>
+        </Row>
+
+
+        {/* Our Services section */}
+        <Row className='m-0 mt-5' >
+
+          <Col md='1'></Col>
+          <Col md='10' className='ourservice-col'>
+            <Row className='m-0'>
+              <Col md='3'>
+                <div className='col-services-inner'>
+                  <h5>Our Services</h5>
+                  <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare </p>
+                  <div><span>See more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='3'>
+                <div className='col-services-inner-grphic'>
+                  <div className='service-image-div'>
+                    <img src={pencil} alt='image' />
+                  </div>
+                  <h5>Graphic Desiging </h5>
+                  <p>Branding & Design services are people’s view </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='3' >
+                <div className='col-services-inner-grphic'>
+                  <div className='service-image-div'>
+                    <img src={image22} alt='image' />
+                  </div>
+                  <h5>Web Developement</h5>
+                  <p>At Zengur, we blend creativity  to craft website.</p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='3'>
+                <div className='col-services-inner-grphic'>
+                  <div className='service-image-div'>
+                    <img src={image33} alt='image' />
+                  </div>
+                  <h5>SEO </h5>
+                  <p>Boost your online visibility with our SEO services. </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col md='1'></Col>
+
+
+        </Row>
+        {/* About us Section */}
+
+        <Row className='m-0'>
+
+        </Row>
+
+        {/* our Process Section */}
+        <Row className='m-0 p-0 '>
+          <Col md='6'>
+            <div className='our-process-mian-div'>
+              <div className='our-process-inner-div'></div>
+              <img className='img-elipss' src={ellipse46} />
+              <div className='our-process-row'>
+                <Row>
+                  <Col md='6'></Col>
+                  <Col md='6'>
+                    <Row>
+                      <Col md='6'>
+                        <div className="our-process-inner-col">
+                          <img src={pencil} alt='image' />
+                          <p>Design and Mockup Creation </p>
+                          <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
+                        </div>
+                      </Col>
+                      <Col md='6'>
+                        <div className='our-process-inner-col'>
+                          <img src={pencil} alt='image' />
+                          <span>Develoment and Coding </span>
+                          <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
+                        </div>
+                      </Col>
+                      <Col md='6'>
+                        <div className='our-process-inner-col'>
+                          <img src={pencil} alt='image' />
+                          <p>Testing and Quality assurance </p>
+                          <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
+                        </div>
+                      </Col>
+                      <Col md='6'>
+                        <div className='our-process-inner-col'>
+                          <img src={pencil} alt='image' />
+                          <p>Client feedback and revisions</p>
+                          <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Col>
+
+                </Row>
+              </div>
+            </div>
+
+          </Col>
+          <Col md='6'>
+            <div className='our-process-heading'>
+              <h5>Our Process</h5>
+              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare </p>
+              <div><span>See more</span> <img src={arrow1} alt="" /></div>
+            </div>
+          </Col>
+        </Row>
+
+        <Row className='m-0 our-process-mian-row'>
+          <div className='portfolio-heading-div'>
+            <h1>Company Portfolio</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  exercitationem nisi voluptas ex, laborum sequi pariatur, eligendi porro error culpa quae! Rem, mollitia quam.</p>
+          </div>
+          <Col md='1'></Col>
+          <Col md='10'>
+            <Row className='ourprocess-main'>
+              <Col md='3'>
+                <img className='img-49' src={rectangle49} alt="" />
+              </Col>
+              <Col md='4'>
+                <img className='img-49' src={rectangle50} alt="" />
+              </Col>
+              <Col md='5'>
+                <img className='img-49' src={rectangle51} alt="" />
+              </Col>
+            </Row>
+            <Row className='ourprocess-main'>
+              <Col md='3'>
+                <img className='img-49' src={rectangle55} alt="" />
+              </Col>
+              <Col md='5'>
+                <img className='img-49' src={rectangle56} alt="" />
+              </Col>
+              <Col md='4'>
+                <img className='img-49' src={rectangle57} alt="" />
+              </Col>
+            </Row>
+          </Col>
+          <Col md='1'></Col>
+        </Row>
+        {/* Contactus section */}
+
+        <Row className='m-0'>
+          <Col md='1'></Col>
+          <Col md='10'>
+            <Row>
+              <Col md='6'>
+                <img src={advertis} className='adverties-img'/>
+              </Col>
+              <Col md='6'>
+                <div className='contactus-heading'>
+                <span>Contact Us</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
+                <div>
+                  <input type='text' placeholder='Email'/>
+                  <button>Send</button>
+                </div>
+                  
+
+                </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col md='1'></Col>
+        </Row>
+        {/* <div className="div">
           <div className="overlap">
-            {/* <div className="rectangle" /> */}
-            {/* <div className="rectangle-2" /> */}
+           
             <img src={rectangle28} className='rectangle-2'/>
             <div className="rectangle-3" />
             <div className="rectangle-4" />
@@ -106,10 +327,8 @@ const Index = () => {
                     alt="Give your business a"
                     src={group35078}
                   />
-                  {/* <img className="img" alt="Group" src="group-38.png" />
-                <img className="group-2" alt="Group" src="group-35077.png" /> */}
+                  
                 </div>
-                {/* <p className="p">!Let us help you reach more customers online!!</p> */}
               </div>
             </div>
             <div className="group-3" />
@@ -118,10 +337,7 @@ const Index = () => {
 
             <div className="overlap-group-wrapper">
               <div className="overlap-2">
-                {/* <div className="rectangle-5" /> */}
-                {/* <div className="text-wrapper-2">Grow Bussiness</div> */}
                 <img className="rectangle-5" alt="Group" src={group48} />
-                {/*<img className="arrow-2" alt="Arrow" src="arrow-5.svg" /> */}
               </div>
             </div>
             <img className="image" alt="Image" src={image9} />
@@ -272,24 +488,7 @@ const Index = () => {
                   </div>
                 </div>
                 </Link>
-                {/* <div className="group-13">
-                <div className="frame-8">
-                  <div className="text-wrapper-17">Read More</div>
-                  <img className="arrow-3" alt="Arrow" src={arrow1} />
-                </div>
-                <div className="rectangle-9" />
-                <div className="text-wrapper-19">Web Development</div>
-                <p className="text-wrapper-20">At Zengur, we blend creativity and technology to craft website.</p>
-              </div>
-              <div className="group-14">
-                <div className="frame-9">
-                  <div className="text-wrapper-17">Read More</div>
-                  <img className="arrow-3" alt="Arrow" src={arrow1} />
-                </div>
-                <div className="rectangle-10" />
-                <div className="text-wrapper-21">SEO</div>
-                <p className="text-wrapper-22">Boost your online visibility with our SEO services.</p>
-              </div> */}
+                
               </div>
               <div className="ellipse-9" />
               <div className="group-15">
@@ -355,8 +554,7 @@ const Index = () => {
                     <div className="overlap-group-6">
                       <div className="overlap-group-7">
                         <div className="text-wrapper-28">Development and Coding</div>
-                        {/* <div className="text-wrapper-28">Development and Coding</div> */}
-                      </div>
+                         </div>
                       <div className="frame-14">
                         <div className="text-wrapper-17">Read More</div>
                         <img className="arrow-3" alt="Arrow" src={arrow1} />
@@ -398,8 +596,7 @@ const Index = () => {
               <img className="pencil-ruler-2" alt="Pencil ruler" src={pencil} />
               <img className="image-12" alt="Image" src={image22} />
               <img className="image-33" alt="Image" src={image33} />
-              {/* <img className="image-12" alt="Image" src={image22} /> */}
-            </div>
+               </div>
             <div className="overlap-11">
               <div className="group-24">
                 <div className="overlap-12">
@@ -420,11 +617,7 @@ const Index = () => {
                           <input type="text" placeholder="Email" name='email' />
                           <button className="frame-18">Submit</button>
                         </div>
-                        {/* <div className="text-wrapper-34">Email</div>
-                      <div className="rectangle-21" />
-                      <div className="frame-18">
-                        <div className="text-wrapper-35">Send</div>
-                      </div> */}
+                       
                       </div>
                       <div className="ellipse-17" />
                       <div className="ellipse-18" />
@@ -435,7 +628,7 @@ const Index = () => {
                     <div className="faq-section">
                       <div className='faq-heading'>
 
-                        <h2 className="faq-title">FAQ</h2>
+                        <h5 className="faq-title">FAQ</h5>
                       </div>
                       <div className="faq-list">
                         {faqData.map((item, index) => (
@@ -456,53 +649,7 @@ const Index = () => {
                       </div>
 
                     </div>
-                    {/* <div className="text-wrapper-36">FAQ</div>
-                  <div className="frame-wrapper">
-                    <div className="frame-19">
-                      <p className="text-wrapper-37">
-                        Sit amet consectetur. Laoreet quis purus nunc. Montes lacus vitae gravida ut in.
-                      </p>
-                      <img className="group-26" alt="Group" src="group-51.png" />
-                    </div>
-                  </div>
-                  <p className="text-wrapper-38">
-                    Quisque dictum nunc eu porta elit nisl. Ut feugiat aliquet faucibus turpis curabitur ultrices dolor.
-                    Lorem leo consectetur elementum nisl mauris egestas ultricies dui morbi.
-                  </p>
-                  <img className="vector" alt="Vector" src="vector-6.svg" />
-                  <div className="frame-20">
-                    <div className="frame-19">
-                      <p className="text-wrapper-39">Sit pellentesque tincidunt varius eu dolor. Diam.</p>
-                      <img className="group-27" alt="Group" src="image.png" />
-                    </div>
-                    <img className="vector-2" alt="Vector" src="vector-6-2.svg" />
-                  </div>
-                  <div className="frame-21">
-                    <div className="frame-19">
-                      <p className="text-wrapper-39">Auctor volutpat scelerisque sed convallis congue.</p>
-                      <img className="group-27" alt="Group" src="group-51-2.png" />
-                    </div>
-                    <img className="vector-2" alt="Vector" src="vector-6-3.svg" />
-                  </div>
-                  <div className="frame-22">
-                    <div className="frame-19">
-                      <p className="text-wrapper-39">
-                        Lorem ipsum dolor sit amet consectetur. Posuere tincidunt urna faucibus viverra diam.
-                      </p>
-                      <img className="group-27" alt="Group" src="group-51-3.png" />
-                    </div>
-                    <img className="vector-2" alt="Vector" src="vector-6-4.svg" />
-                  </div>
-                  <div className="frame-23">
-                    <div className="frame-19">
-                      <p className="text-wrapper-39">
-                        {" "}
-                        Kllamcorpecongue nec gravida. Nunc ac varius bibendum tortor risus egestas volutpat.
-                      </p>
-                      <img className="group-27" alt="Group" src="group-51-4.png" />
-                    </div>
-                    <img className="vector-2" alt="Vector" src="vector-6-5.svg" />
-                  </div> */}
+                    
                   </div>
                 </div>
                 <img className="image-13" alt="Image" src="image-18.png" />
@@ -530,29 +677,9 @@ const Index = () => {
             </div>
             <img className="ellipse-20" alt="Ellipse" src={ellipse46} />
           </div>
-          {/* <div className="group-28">
-          <div className="text-wrapper-43">Services</div>
-          <div className="text-wrapper-44">About Us</div>
-          <div className="frame-25">
-            <div className="text-wrapper-42">Contact Us</div>
-            <div className="text-wrapper-42">FAQ</div>
-          </div>
-          <div className="group-29">
-            <div className="text-wrapper-45">Home</div>
-            <div className="rectangle-22" />
-          </div>
-          <div className="frame-26">
-            <div className="text-wrapper-46">Request Quote</div>
-          </div>
-          <div className="group-30">
-            <div className="overlap-group-9">
-              <div className="text-wrapper-47">Zengur</div>
-              <div className="text-wrapper-48">Zengur</div>
-              <div className="text-wrapper-49">Zengur</div>
-            </div>
-          </div>
+         
         </div> */}
-        </div>
+
       </div>
     </Fragment>
   )

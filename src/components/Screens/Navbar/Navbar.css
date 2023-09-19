@@ -8,12 +8,12 @@
   .group-40 .nav-item{
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
-    width: 75%;
+    width: 100%;
   }
-  .group-40 .nav-item .nav-item-link{
+  /* .group-40 .nav-item .nav-item-link{
     text-decoration: none;
     color: #ffffff;
   }
@@ -21,12 +21,10 @@
     color: #00eaff;
     font-weight: 800;
     font-size: 22px;
-    /* outline: #00eaff; */
-    /* transition: 1s; */
     box-shadow: 0px 0px 50px rgb(0, 255, 255);
 
-  }
-   .text-wrapper-46 {
+  } */
+   /* .text-wrapper-46 {
     color: #ffffff;
     font-family: "Nunito-Regular", Helvetica;
     font-size: 16px;
@@ -59,5 +57,76 @@
     margin-top: -1px;
     position: relative;
     width: fit-content;
+  } */
+  /* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  /* position: relative; */
+ /* width: 100%; */
+  /* z-index: 100; */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-button {
+  background-color: #fca311;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    /* position: absolute; */
+    /* top: 60px;
+    left: 0;
+    right: 0; */
+    background-color: #333;
+    /* z-index: 99; */
+    /* padding: 10px; */
   }
-  
+
+  .navbar-menu.open {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+
+  .bar.open {
+    display: block;
+    /* transform: rotate(-45deg) translate(-5px, 6px); */
+  }
+}
