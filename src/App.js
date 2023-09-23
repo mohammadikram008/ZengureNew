@@ -31,7 +31,7 @@ function App() {
         <Route path='/seoform' element={<SEOFrom/>}></Route>
         <Route path='/graphicform' element={<GraphicForm/>}></Route>
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     
     </Fragment>
   );

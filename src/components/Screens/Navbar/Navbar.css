@@ -72,7 +72,14 @@
     padding: 12px 24px;
     position: relative;
   }
-  
+  .main-Navbar{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+  }
   .frame .text-wrapper {
     color: #ffffff;
     font-family: "Nunito-Regular", Helvetica;
@@ -124,6 +131,7 @@
 
 /* Responsive styles for small screens */
 @media screen and (max-width: 768px) {
+
   .navbar-menu {
     display: none;
     width: 100%;
@@ -160,4 +168,7 @@
     display: flex;
     /* transform: rotate(-45deg) translate(-5px, 6px); */
   }
+  .group-40  .main-Navbar{
+    display: none;
+      }
 }

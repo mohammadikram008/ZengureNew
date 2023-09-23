@@ -4,18 +4,19 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  height: 100vh;
 }
 
 .contactus-form .div {
   background-color: #131820;
-  height: 1431px;
+  /* height: 1431px; */
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .contactus-form .overlap {
-  height: 1348px;
+  /* height: 1348px; */
   /* left: -230px; */
   position: absolute;
   /* top: 83px; */
@@ -23,12 +24,10 @@
 }
 
 .contactus-form .rectangle {
-  background: linear-gradient(
-    180deg,
-    rgba(45, 181, 193, 0.1) 21%,
-    rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
-    rgba(0, 234.32, 255, 0.1) 89.29%
-  );
+  background: linear-gradient(180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%);
   height: 1036px;
   left: 0;
   position: absolute;
@@ -37,16 +36,16 @@
 }
 
 .contactus-form .image {
-  height: 1036px;
+  /* height: 1036px; */
   /* left: 230px; */
   object-fit: cover;
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+  background-position: center;
+  background-size: cover;
+
   position: absolute;
   /* top: 0; */
-  width: 100% ;
+  width: 100%;
 
 }
 
@@ -114,14 +113,12 @@
 }
 
 .contactus-form .ellipse-4 {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgb(11, 116, 137) 0%,
-    rgb(9.63, 105, 115.6) 21.25%,
-    rgb(16.63, 113.84, 120.91) 42.59%,
-    rgb(16, 157, 164) 62.56%,
-    rgb(107.49, 203.28, 208.04) 93.68%
-  );
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%);
   border-radius: 67px;
   height: 134px;
   left: 1603px;
@@ -156,7 +153,7 @@
   left: 15%;
   position: absolute;
   top: 286px;
-  width: 446px;
+  width: 30%;
 }
 
 .contactus-form .frame-199 {
@@ -165,6 +162,7 @@
   flex-direction: column;
   gap: 12px;
   left: 23px;
+  width: 100%;
   position: absolute;
   top: 43px;
 }
@@ -192,7 +190,7 @@
   color: white;
   text-align: center;
   position: relative;
-  width: 398px;
+  width: 90%;
 }
 
 .contactus-form .frame-2 {
@@ -201,6 +199,7 @@
   flex-direction: column;
   gap: 12px;
   left: 23px;
+  width: 100%;
   position: absolute;
   top: 152px;
 }
@@ -213,6 +212,7 @@
   left: 23px;
   position: absolute;
   top: 261px;
+  width: 100%;
 }
 
 .contactus-form .div-wrapper {
@@ -228,7 +228,7 @@
   padding: 15px 30px;
   position: absolute;
   top: 381px;
-  width: 400px;
+  width: 90%;
 }
 
 .contactus-form .text-wrapper-3 {
@@ -326,12 +326,10 @@
 }
 
 .contactus-form .rectangle-3 {
-  background: linear-gradient(
-    180deg,
-    rgba(45, 181, 193, 0.1) 21%,
-    rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
-    rgba(0, 234.32, 255, 0.1) 89.29%
-  );
+  background: linear-gradient(180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%);
   height: 641px;
   left: 0;
   position: absolute;
@@ -340,12 +338,10 @@
 }
 
 .contactus-form .rectangle-4 {
-  background: linear-gradient(
-    180deg,
-    rgba(45, 181, 193, 0.1) 21%,
-    rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
-    rgba(0, 234.32, 255, 0.1) 89.29%
-  );
+  background: linear-gradient(180deg,
+      rgba(45, 181, 193, 0.1) 21%,
+      rgba(64.04, 221.16, 235.03, 0.1) 65.63%,
+      rgba(0, 234.32, 255, 0.1) 89.29%);
   height: 937px;
   left: 98px;
   position: absolute;
@@ -565,14 +561,12 @@
 }
 
 .contactus-form .ellipse-5 {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgb(11, 116, 137) 0%,
-    rgb(9.63, 105, 115.6) 21.25%,
-    rgb(16.63, 113.84, 120.91) 42.59%,
-    rgb(16, 157, 164) 62.56%,
-    rgb(107.49, 203.28, 208.04) 93.68%
-  );
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%);
   border-radius: 90.5px;
   height: 181px;
   left: 1535px;
@@ -671,12 +665,10 @@
 }
 
 .contactus-form .rectangle-6 {
-  background: linear-gradient(
-    180deg,
-    rgb(45, 181, 193) 21%,
-    rgb(64.04, 221.16, 235.03) 65.63%,
-    rgb(0, 234.32, 255) 89.29%
-  );
+  background: linear-gradient(180deg,
+      rgb(45, 181, 193) 21%,
+      rgb(64.04, 221.16, 235.03) 65.63%,
+      rgb(0, 234.32, 255) 89.29%);
   border-radius: 293.93px;
   filter: blur(134.01px);
   height: 531px;
@@ -688,12 +680,10 @@
 }
 
 .contactus-form .rectangle-7 {
-  background: linear-gradient(
-    180deg,
-    rgb(45, 181, 193) 21%,
-    rgb(64.04, 221.16, 235.03) 65.63%,
-    rgb(0, 234.32, 255) 89.29%
-  );
+  background: linear-gradient(180deg,
+      rgb(45, 181, 193) 21%,
+      rgb(64.04, 221.16, 235.03) 65.63%,
+      rgb(0, 234.32, 255) 89.29%);
   border-radius: 293.93px;
   filter: blur(134.01px);
   height: 531px;
@@ -705,14 +695,12 @@
 }
 
 .contactus-form .ellipse-6 {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgb(11, 116, 137) 0%,
-    rgb(9.63, 105, 115.6) 21.25%,
-    rgb(16.63, 113.84, 120.91) 42.59%,
-    rgb(16, 157, 164) 62.56%,
-    rgb(107.49, 203.28, 208.04) 93.68%
-  );
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%);
   border-radius: 75px;
   height: 150px;
   left: 291px;
@@ -722,14 +710,12 @@
 }
 
 .contactus-form .ellipse-7 {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgb(11, 116, 137) 0%,
-    rgb(9.63, 105, 115.6) 21.25%,
-    rgb(16.63, 113.84, 120.91) 42.59%,
-    rgb(16, 157, 164) 62.56%,
-    rgb(107.49, 203.28, 208.04) 93.68%
-  );
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%);
   border-radius: 38.55px;
   height: 77px;
   left: 1780px;
@@ -820,14 +806,11 @@
   background-color: #ffffff3b;
   border: 1px solid;
   border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
+  border-image: linear-gradient(to bottom,
       rgb(255, 255, 255),
       rgba(255, 255, 255, 0) 25.22%,
       rgba(255, 255, 255, 0) 76.42%,
-      rgb(255, 255, 255) 100%
-    )
-    1;
+      rgb(255, 255, 255) 100%) 1;
   border-radius: 10px;
   height: 220px;
   left: 267px;
@@ -881,6 +864,7 @@
   background-color: #ffffff3b;
   border-radius: 10px;
   height: 220px;
+  /* margin-bottom: 20px !important; */
   position: relative;
   width: 237px;
 }
@@ -1599,7 +1583,8 @@
   top: 4801px;
   width: 267px;
 }
-.text-wrapper-2 .nav-item{
+
+.text-wrapper-2 .nav-item {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -1607,7 +1592,46 @@
   list-style: none;
   width: 75%;
 }
-.text-wrapper-2  .nav-item-link{
+
+.text-wrapper-2 .nav-item-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.overlap-15 {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactus-form .group-2 {
+    left: 10%;
+    width: 85%;
+    top: 80px;
+  }
+
+  .contactus-form .rectangle-2 {
+    width: 85%;
+  }
+
+  .contactus-form .text-wrapper {
+    font-size: 16px;
+    top: 30px;
+  }
+
+  .contactus-form .image {
+    height: 1000px;
+    /* left: 230px; */
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 100% ; */
+
+  }
+  .contactus-form .div-wrapper {
+    width: 85%;
+  }
 }

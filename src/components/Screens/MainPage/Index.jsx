@@ -214,9 +214,9 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="box-circle">
+              {/* <div className="box-circle">
                 <div className="ellipse-circle" />
-              </div>
+              </div> */}
             </Col>
           </Row>
         </div>
@@ -343,10 +343,7 @@ const Index = () => {
           <Col md='1'></Col>
         </Row>
         <Faq />
-        <Footer />
-
-
-        {/* <Footer/> */}
+        {/* <Footer /> */}
 
         {/* <div className="div">
           <div className="overlap">

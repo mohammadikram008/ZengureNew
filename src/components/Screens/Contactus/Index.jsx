@@ -37,7 +37,7 @@ const Index = () => {
                 <div className="text-wrapper-3">Send Message</div>
               </button>
             </div>
-            <div className="overlap-wrapper">
+            {/* <div className="overlap-wrapper">
               <div className="overlap-group">
                 <img className="vector" alt="Vector" src="vector-7.svg" />
                 <img className="img" alt="Image" src={logo} />
@@ -51,7 +51,7 @@ const Index = () => {
                   <div className="text-wrapper-2"><Link to='/' className='nav-item-link'>FAQ</Link></div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
         </div>
