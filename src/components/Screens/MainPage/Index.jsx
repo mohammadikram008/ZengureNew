@@ -39,8 +39,10 @@ import rectangle56 from './Rectangle 56.png'
 import rectangle57 from './Rectangle 57.png'
 import rectangle28 from './Rectangle 28.png'
 import ellipse46 from './Ellipse 46.png'
+import ellipse40 from './Ellipse 40.png'
 import { Row, Col } from 'reactstrap';
-
+import Faq from '../FAQ/Index'
+import Footer from '../Footer/Index'
 const Index = () => {
   const openWhatsAppChat = () => {
     const phoneNumber = '+923357944011'; // Replace with your WhatsApp phone number
@@ -84,6 +86,9 @@ const Index = () => {
   return (
     <Fragment>
       <div className="home-page-DARK-MODE">
+
+
+
         {/* whychoose us section */}
         <div className='whychooseus'>
           <h1>Why Choose Us</h1>
@@ -186,18 +191,45 @@ const Index = () => {
 
 
         </Row>
+        
         {/* About us Section */}
+        <div className='aboutus-mian-row'>
+     
+          <Row className='m-0 '>
+            <Col md='6'>
+              <img className='img-elips-aboutus' src={ellipse46} />
+              <div className='portfolio-heading-div'>
+                <img className='group35081' src={group35081} />
+                <h1>About Us</h1>
+                <p>At Zengur, we are more than just a web development and design agency – we are your trusted partner in leveraging the digital landscape to elevate your business. With a passion for innovation and a commitment to excellence, we specialize in delivering tailored solutions for a wide spectrum of industries, including e-commerce, real estate, accounting firms, education, and blockchain technology.</p>
+              </div>
+            </Col>
+            <Col md='6' className='aboutus-col'>
+              <div className="box">
+                <div className="group">
+                  <div className="overlap-group">
+                    <div className="image" />
+                    <img className="img" alt="Image" src={image20} />
 
-        <Row className='m-0'>
-
-        </Row>
-
+                  </div>
+                </div>
+              </div>
+              <div className="box-circle">
+                <div className="ellipse-circle" />
+              </div>
+            </Col>
+          </Row>
+        </div>
+        
         {/* our Process Section */}
+        <img className='group35061' src={group35061} />
+        <img className='elipse40' src={ellipse40} />
         <Row className='m-0 p-0 '>
           <Col md='6'>
             <div className='our-process-mian-div'>
               <div className='our-process-inner-div'></div>
               <img className='img-elipss' src={ellipse46} />
+
               <div className='our-process-row'>
                 <Row>
                   <Col md='6'></Col>
@@ -213,7 +245,7 @@ const Index = () => {
                       <Col md='6'>
                         <div className='our-process-inner-col'>
                           <img src={pencil} alt='image' />
-                          <span>Develoment and Coding </span>
+                          <p>Develoment and Coding </p>
                           <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
                         </div>
                       </Col>
@@ -255,7 +287,7 @@ const Index = () => {
           </div>
           <Col md='1'></Col>
           <Col md='10'>
-            <Row className='ourprocess-main'>
+            <Row className=' ourprocess-main'>
               <Col md='3'>
                 <img className='img-49' src={rectangle49} alt="" />
               </Col>
@@ -277,34 +309,45 @@ const Index = () => {
                 <img className='img-49' src={rectangle57} alt="" />
               </Col>
             </Row>
+            <div className='company-portfolio-seemore'>
+              <div className='seemore-div-com'>
+
+                <span>See more</span> <img src={arrow1} alt="" />
+              </div>
+            </div>
           </Col>
           <Col md='1'></Col>
         </Row>
         {/* Contactus section */}
 
-        <Row className='m-0'>
+        <Row className='m-0 row-contact-us-topAll'>
           <Col md='1'></Col>
-          <Col md='10'>
-            <Row>
-              <Col md='6'>
-                <img src={advertis} className='adverties-img'/>
-              </Col>
-              <Col md='6'>
-                <div className='contactus-heading'>
-                <span>Contact Us</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
-                <div>
-                  <input type='text' placeholder='Email'/>
-                  <button>Send</button>
-                </div>
-                  
+          <Col md='10' className='contact-main-col mt-5'>
 
-                </div>
-              </Col>
-            </Row>
+            <img src={advertis} className='adverties-img' />
+
+
+            <div className='contactus-heading'>
+              <span>Contact Us</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
+              <div className='input-div-contactus'>
+                <input type='text' placeholder='Email' />
+                <button>Send</button>
+              </div>
+
+
+            </div>
+
+
           </Col>
           <Col md='1'></Col>
         </Row>
+        <Faq />
+        <Footer />
+
+
+        {/* <Footer/> */}
+
         {/* <div className="div">
           <div className="overlap">
            
@@ -681,7 +724,7 @@ const Index = () => {
         </div> */}
 
       </div>
-    </Fragment>
+    </Fragment >
   )
 }
 

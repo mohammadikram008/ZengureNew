@@ -1,18 +1,5 @@
-.group-40 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-  }
+
  
-  .group-40 .nav-item{
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-  }
   /* .group-40 .nav-item .nav-item-link{
     text-decoration: none;
     color: #ffffff;
@@ -59,13 +46,51 @@
     width: fit-content;
   } */
   /* Navbar.css */
+  .group-40 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+ 
+  .group-40 .nav-item{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+  }
+  .frame {
+    align-items: center;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 48px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Nunito-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
   /* position: relative; */
- /* width: 100%; */
+ width: 70%;
   /* z-index: 100; */
 }
 
@@ -74,6 +99,9 @@
   display: flex;
   margin: 0;
   padding: 0;
+}
+.navbar li :hover{
+  border-bottom: 3px solid #0B7489;
 }
 
 .navbar li {
@@ -98,12 +126,13 @@
 @media screen and (max-width: 768px) {
   .navbar-menu {
     display: none;
+    width: 100%;
     flex-direction: column;
     /* position: absolute; */
     /* top: 60px;
     left: 0;
     right: 0; */
-    background-color: #333;
+    /* background-color: #333; */
     /* z-index: 99; */
     /* padding: 10px; */
   }
@@ -113,12 +142,14 @@
   }
 
   .navbar-toggle {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* width: 40px; */
     cursor: pointer;
   }
 
   .bar {
-    width: 25px;
+    width: 40px;
     height: 3px;
     background-color: white;
     margin: 4px 0;
@@ -126,7 +157,7 @@
   }
 
   .bar.open {
-    display: block;
+    display: flex;
     /* transform: rotate(-45deg) translate(-5px, 6px); */
   }
 }

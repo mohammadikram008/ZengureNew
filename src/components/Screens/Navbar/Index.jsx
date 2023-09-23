@@ -6,7 +6,14 @@ const Index = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => {
-        setIsOpen(true);
+        console.log(isOpen)
+        if(!isOpen){
+            setIsOpen(true);
+           
+            
+        }else{
+            setIsOpen(false);
+        }
     };
     const closeMenu = () => {
         setIsOpen(false);
@@ -20,7 +27,9 @@ const Index = () => {
                         <span className={`bar ${isOpen ? 'open' : ''}`}></span>
                         <span className={`bar ${isOpen ? 'open' : ''}`}></span>
                     </div>
-                    <ul className={` nav-item navbar-menu ${isOpen ? 'open' : ''}`}>
+                    {
+                        isOpen ?
+                        <ul className={` nav-item navbar-menu `}>
                         <li><Link to='/' className='nav-item-link'  onClick={closeMenu}>Home</Link></li>
                         <li> <Link to='/ourservices' className='nav-item-link'  onClick={closeMenu}>Services</Link></li>
                         <li><Link to='/aboutus' className='nav-item-link'  onClick={closeMenu}>AboutUs</Link></li>
@@ -37,7 +46,9 @@ const Index = () => {
                         {/* <div class="frame-26">
                         <div class="text-wrapper-46"><Link to='/' className='nav-item-link'>Request Quote</Link></div>
                     </div> */}
-                    </ul>
+                    </ul>:""
+                    }
+                   
                 </nav>
             </div>
         </Fragment>
