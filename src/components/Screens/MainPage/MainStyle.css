@@ -8,6 +8,107 @@
 
 }
 
+.hero-row-main {
+  background-color: #172C34;
+  height: 600px !important;
+
+}
+
+.elipse-120 {
+  position: absolute;
+  top: 330px;
+  left: 170px;
+  width: 90px;
+}
+
+.elipse-47 {
+  /* position: absolute;
+  top: 20px;
+  left: 180px; */
+  position: absolute;
+  left: 0;
+  top: 250px;
+  width: 90px;
+}
+
+.hero-heading-col {
+  position: relative;
+  margin-bottom: 100px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait {
+  position: absolute;
+  left: 50px;
+  width: 30%;
+  /* height: 20%; */
+}
+
+.image47 {
+  position: absolute;
+  left: 650px;
+  width: 25%;
+  top: 300px;
+  height: 50%;
+}
+
+.image9 {
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  left: 73%;
+  top: 300px;
+
+}
+
+.group-48 {
+  position: absolute;
+  right: 0;
+  top: 25%;
+
+}
+
+.getintouchbtn {
+  position: absolute;
+  left: 450px;
+  top: 285px;
+}
+
+.hero-row-main {}
+
+.bussniess-img img {
+  top: 0px;
+  left: 20%;
+  position: absolute;
+  width: 50% !important;
+  margin-top: 50px;
+}
+
+.img-hero-elispe {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  width: 40px;
+  height: 80px;
+}
+
+.img-hero-elispe-40 {
+  position: absolute;
+  width: 40px;
+  right: 0;
+  top: 500px;
+
+}
+
+.faq-section {
+  margin-top: 150px !important;
+  margin-bottom: 100px !important;
+}
+
+
 .whychooseus-card {
   position: relative;
   border: 1px solid #2DB5C166;
@@ -23,6 +124,7 @@
   border: 0.63px solid;
   border-color: #ffffff40;
 }
+
 .whychooseus-card:hover {
   background-color: aqua;
 }
@@ -39,6 +141,11 @@
   padding: 20px;
 }
 
+.portrait-img {
+  width: 250px;
+  margin-top: 80px;
+}
+
 .whychooseus-card p {
   padding: 20px;
   margin-top: -40px;
@@ -51,6 +158,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 10px;
+  margin-top: 70px;
 }
 
 .ourservice-col {
@@ -59,6 +167,7 @@
   border-radius: 30px;
   background-color: #FFFFFF40;
   opacity: .7;
+
 }
 
 .col-services-inner {
@@ -152,7 +261,7 @@
 .img-elipss {
   position: absolute;
   margin-top: -105px !important;
-  left: 0;
+  left: 0 !important;
 }
 
 .img-elips-aboutus {
@@ -160,20 +269,23 @@
   left: 0;
   /* margin-top: -105px !important; */
 }
-.group35081{
+
+.group35081 {
   position: absolute;
   /* top: 0; */
   left: 0;
 }
-.group35061{
+
+.group35061 {
   position: absolute;
   right: 0;
-  top: 1540px;
+  top: 1620px;
 }
-.elipse40{
+
+.elipse40 {
   position: absolute;
   right: 0;
-  top: 1610px;
+  top: 1690px;
 }
 
 .readmore {
@@ -245,7 +357,7 @@
   position: absolute;
   right: 0px;
   width: 60%;
-  /* height: 60%; */
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,7 +379,7 @@
 
 .row-contact-us-topAll {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   height: 9%;
@@ -276,8 +388,9 @@
 .contact-main-col {
   background: linear-gradient(180deg, rgb(11, 116, 137) 0%, rgb(16, 157, 164) 100%);
   border-radius: 40px;
-  height: 45%;
-  /* margin-top: 100px !important; */
+  height: 300px;
+  width: 100%;
+  margin-top: 100px !important;
   display: flex;
   /* margin-top: 150px; */
   /* position: relative; */
@@ -286,9 +399,15 @@
 
 }
 
+.contactus-inner-section {
+
+  height: 100%;
+
+}
+
 .adverties-img {
-  width: 57%;
-  /* height: 100%; */
+  width: 100%;
+  height: 100%;
   /* position: absolute; */
   left: 0px;
   bottom: 0px;
@@ -309,21 +428,21 @@
 
 .input-div-contactus input {
   width: 75%;
-color: white;
+  color: white;
   background-color: transparent;
-    border: none;
+  border: none;
   /* border-top-left-radius: 10px; */
   /* border-bottom-left-radius: 10px; */
 }
 
 .input-div-contactus button {
-  
+
   border-radius: 20px;
   background-color: white;
   position: relative;
   height: 30px;
   width: 60px;
-  border:1px solid white;
+  border: 1px solid white;
   display: flex;
   color: #0B7489;
   justify-content: center;
@@ -331,20 +450,19 @@ color: white;
   /* position: absolute; */
   right: 0px;
 }
+
 .box-circle {
   height: 181px;
   width: 181px;
 }
 
 .box-circle .ellipse-circle {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgb(11, 116, 137) 0%,
-    rgb(9.63, 105, 115.6) 21.25%,
-    rgb(16.63, 113.84, 120.91) 42.59%,
-    rgb(16, 157, 164) 62.56%,
-    rgb(107.49, 203.28, 208.04) 93.68%
-  );
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgb(11, 116, 137) 0%,
+      rgb(9.63, 105, 115.6) 21.25%,
+      rgb(16.63, 113.84, 120.91) 42.59%,
+      rgb(16, 157, 164) 62.56%,
+      rgb(107.49, 203.28, 208.04) 93.68%);
   border-radius: 90.5px;
   height: 181px;
   /* left: 0; */
@@ -411,6 +529,138 @@ color: white;
   position: absolute;
   top: 91px;
   width: 551px;
+}
+
+@media screen and (max-width: 768px) {
+  .ourservice-col {
+    margin: 10px;
+  }
+
+  .group35061 {
+    display: none;
+  }
+
+  .elipse40 {
+    top: 2400px;
+  }
+
+  .portfolio-heading-div p {
+    width: 346px !important;
+  }
+
+  .overlap-group .image {
+    width: 95%;
+  }
+
+  .overlap-group .img {
+    width: 93%;
+    left: 20px;
+  }
+
+  .img-elipss {
+    display: none;
+  }
+
+  .class-our-process-main-row .our-process-mian-div {
+    margin-top: 300px !important;
+  }
+
+  .company-portfolio-seemore {
+    margin-top: 120px;
+  }
+
+  .row-contact-us-topAll {
+    margin-top: 300px !important;
+  }
+
+  .faq-section {
+    margin-top: 450px !important;
+  }
+
+  .group35081 {
+    display: none;
+  }
+
+  .aboutus-col {
+    width: 100% !important;
+  }
+
+  .box {
+    width: 100% !important;
+  }
+
+  .group {
+    width: 100% !important;
+  }
+
+  .group .overlap-group {
+    width: 100% !important;
+  }
+
+  .our-process-inner-div {
+    width: 100% !important;
+  }
+
+  .contact-main-col {
+    height: 80%;
+  }
+
+  .adverties-img {
+    width: 100%;
+  }
+
+  .hero-row-main {
+    display: none;
+
+  }
+
+  .getintouchbtn {
+    left: 0;
+    margin-top: -20%;
+    margin-left: 20%;
+  }
+
+  .image47 {
+    left: 0;
+    display: none;
+  }
+
+  .bussniess-img img {
+    margin-top: -120px;
+    width: 80% !important;
+    left: 0;
+    margin-left: 40px;
+  }
+
+  .portrait,
+  .elipse-47,
+  .image9,
+  .row-contact-us-topAll,
+  .contact-main-col{
+    display: none;
+  }
+
+  .group-48 {
+    left: 0;
+    margin-left: 50%;
+
+  }
+  .our-process-mian-row{
+height: 1100px !important;
+  }
+  .our-process-row{
+    position: relative;
+
+  }
+  .our-process-heading{
+    /* width: 500px; */
+    margin: 0px;
+    padding: 15px;
+
+  }
+  .our-process-heading p{
+width: 100% !important;
+  }
 }
 
 /*

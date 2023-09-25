@@ -9,7 +9,9 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 // import image9 from './image9.png'
 import arrow1 from './Arrow1.png'
 // import group35076 from './group35076.png'
+// import group35078 from './Group 35078.png'
 import group35078 from './Group35078.png'
+import elips120count from './Group 46.png'
 import image3 from './image3.png'
 import image23 from './image23.png'
 import image24 from './image24.png'
@@ -25,6 +27,7 @@ import image25 from './image25.png'
 import image9 from './image9.png'
 import image22 from './image22.png'
 import image37 from './image37.png'
+import getintouchbtn from './Frame 1.png'
 import image33 from './image 33.png'
 import group35076 from './Group 35076.png'
 import group35081 from './Group 35081.png'
@@ -42,6 +45,7 @@ import ellipse46 from './Ellipse 46.png'
 import ellipse40 from './Ellipse 40.png'
 import { Row, Col } from 'reactstrap';
 import Faq from '../FAQ/Index'
+import ellipse47 from './Group 47.png'
 import Footer from '../Footer/Index'
 const Index = () => {
   const openWhatsAppChat = () => {
@@ -88,7 +92,35 @@ const Index = () => {
       <div className="home-page-DARK-MODE">
 
 
+        <img className='img-hero-elispe' src={ellipse46} />
+        <Row className='m-0 hero-row-main' >
+          <Col md='1'></Col>
+          <Col md='10' className='hero-heading-col'>
+            <div className='bussniess-img'>
+              <img src={group35078} />
+            </div>
+           
+              <img src={ellipse47} className='elipse-47' />
+            <div className='portrait'>
+              <img src={portrait}  className='portrait-img'/>
+              <img src={elips120count} className='elipse-120' />
+            </div>
+            <div>
+              <img src={getintouchbtn} className='getintouchbtn' />
+            </div>
+            <div>
+              <img src={image9} className='image9' />
+              <img src={image47} className='image47' />
 
+            </div>
+            <div>
+              <img src={group48} alt="" className='group-48' />
+            </div>
+          </Col>
+          <Col md='1'></Col>
+
+        </Row>
+        <img className='img-hero-elispe-40' src={ellipse40} />
         {/* whychoose us section */}
         <div className='whychooseus'>
           <h1>Why Choose Us</h1>
@@ -191,10 +223,10 @@ const Index = () => {
 
 
         </Row>
-        
+
         {/* About us Section */}
         <div className='aboutus-mian-row'>
-     
+
           <Row className='m-0 '>
             <Col md='6'>
               <img className='img-elips-aboutus' src={ellipse46} />
@@ -220,11 +252,11 @@ const Index = () => {
             </Col>
           </Row>
         </div>
-        
+
         {/* our Process Section */}
         <img className='group35061' src={group35061} />
         <img className='elipse40' src={ellipse40} />
-        <Row className='m-0 p-0 '>
+        <Row className='m-0 class-our-process-main-row'>
           <Col md='6'>
             <div className='our-process-mian-div'>
               <div className='our-process-inner-div'></div>
@@ -280,6 +312,7 @@ const Index = () => {
           </Col>
         </Row>
 
+        {/* Company Portfolio */}
         <Row className='m-0 our-process-mian-row'>
           <div className='portfolio-heading-div'>
             <h1>Company Portfolio</h1>
@@ -323,20 +356,23 @@ const Index = () => {
         <Row className='m-0 row-contact-us-topAll'>
           <Col md='1'></Col>
           <Col md='10' className='contact-main-col mt-5'>
-
-            <img src={advertis} className='adverties-img' />
-
-
-            <div className='contactus-heading'>
-              <span>Contact Us</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
-              <div className='input-div-contactus'>
-                <input type='text' placeholder='Email' />
-                <button>Send</button>
-              </div>
+            <Row className='contactus-inner-section'>
+              <Col md='6'><img src={advertis} className='adverties-img' /></Col>
+              <Col md='6'> <div className='contactus-heading'>
+                <span>Contact Us</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
+                <div className='input-div-contactus'>
+                  <input type='text' placeholder='Email' />
+                  <button>Send</button>
+                </div>
 
 
-            </div>
+              </div></Col>
+            </Row>
+
+
+
+
 
 
           </Col>
