@@ -22,7 +22,7 @@ const Index = () => {
       <Row className='m-0 '>
         <div className='ourservice-heading-div'>
           <h1>Our Services</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  exercitationem nisi voluptas ex, laborum sequi pariatur, eligendi porro error culpa quae! Rem, mollitia quam.</p>
+          <p>Elevate your online presence with our expert services: graphic design, web development, and SEO.</p>
         </div>
         <Col md='2'></Col>
         <Col md='3'>

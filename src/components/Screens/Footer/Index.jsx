@@ -9,7 +9,7 @@ const Index = () => {
           
           <img className="image-14" alt="Image" src={logo} />
           <p className="text-wrapper-40">
-            Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin
+          Dive into our portfolio to witness a rich tapestry of successful endeavors, showcasing our versatile skills and creative prowess.
           </p>
           <div className="frame-24">
             <div className="text-wrapper-42"><Link to='/' className='nav-item-link'>Home</Link> </div>

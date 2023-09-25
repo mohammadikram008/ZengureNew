@@ -147,8 +147,9 @@
 }
 
 .whychooseus-card p {
-  padding: 20px;
-  margin-top: -40px;
+  padding: 15px;
+
+  margin-top: -30px;
 }
 
 .whychooseus {
@@ -173,7 +174,14 @@
 .col-services-inner {
   padding: 40px;
 }
+.ellipse-6-main{
+  margin-top: 55%;
+  margin-right: 20%;
+  /* position: absolute; */
+  top: 400px;
+  width: 100px;
 
+}
 .col-services-inner-grphic {
   padding: 5px;
   height: 90%;
@@ -251,7 +259,9 @@
   margin-top: 1rem;
   border-radius: 10px;
 }
-
+.our-process-inner-col p{
+margin-top: 10px;
+}
 .our-process-inner-col img {
   margin-top: 1rem;
   margin-left: 1px;
@@ -274,6 +284,7 @@
   position: absolute;
   /* top: 0; */
   left: 0;
+
 }
 
 .group35061 {
@@ -293,6 +304,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: -10px;
 }
 
 .readmore img {
@@ -533,7 +545,8 @@
 
 @media screen and (max-width: 768px) {
   .ourservice-col {
-    margin: 10px;
+    /* width: 100% !important; */
+    /* margin: 10px; */
   }
 
   .group35061 {
@@ -541,7 +554,7 @@
   }
 
   .elipse40 {
-    top: 2400px;
+    top: 2050px;
   }
 
   .portfolio-heading-div p {
@@ -551,7 +564,9 @@
   .overlap-group .image {
     width: 95%;
   }
-
+  .col-ourservices-inner-grphic{
+    margin-bottom: 50px;
+  }
   .overlap-group .img {
     width: 93%;
     left: 20px;

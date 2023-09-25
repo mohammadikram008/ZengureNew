@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import './MainStyle.css'
-import { Link } from 'react-router-dom'
+import { Link ,useNavigate} from 'react-router-dom'
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 // import heading from './heading.png'
 // import group48 from './group48.png'
@@ -10,6 +10,7 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import arrow1 from './Arrow1.png'
 // import group35076 from './group35076.png'
 // import group35078 from './Group 35078.png'
+import elipse6 from '../AboutUs/Ellipse 39.png'
 import group35078 from './Group35078.png'
 import elips120count from './Group 46.png'
 import image3 from './image3.png'
@@ -48,6 +49,7 @@ import Faq from '../FAQ/Index'
 import ellipse47 from './Group 47.png'
 import Footer from '../Footer/Index'
 const Index = () => {
+  const Navigate=useNavigate();
   const openWhatsAppChat = () => {
     const phoneNumber = '+923357944011'; // Replace with your WhatsApp phone number
 
@@ -62,6 +64,11 @@ const Index = () => {
   const handleToggle = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+const handleChange=(props)=>{
+  // Navigate('/seo')
+
+}
+
   const faqData = [
     {
       question: 'What is web development and design?',
@@ -124,7 +131,7 @@ const Index = () => {
         {/* whychoose us section */}
         <div className='whychooseus'>
           <h1>Why Choose Us</h1>
-          <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare posuere d</p>
+          <p>Why choose us? We deliver exceptional results, creativity, and digital expertise to help your business thrive.</p>
         </div>
         <Row className='m-0'>
           <Col md='3'></Col>
@@ -132,23 +139,23 @@ const Index = () => {
             <div className='whychooseus-card'>
               <img src={image25} alt='image' />
               <h5>Creative and innovative designs</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+              <p>Our creative and innovative designs set us apart, ensuring your brand stands out in a crowded digital landscape. </p>
             </div>
 
           </Col>
           <Col md='2'>
             <div className='whychooseus-card'>
               <img src={image29} alt='image' />
-              <h5>Creative and innovative designs</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+              <h5>Attention to detail and user-centric approach</h5>
+              <p>Our attention to detail and  guarantee a seamless and engaging experience for your audience. </p>
             </div>
 
           </Col>
           <Col md='2'>
             <div className='whychooseus-card'>
               <img src={image26} alt='image' />
-              <h5>Creative and innovative designs</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+              <h5>Timely projects delivery</h5>
+              <p>We prioritize timely project delivery, user-centric approach ensuring your business stays on schedule and achieves its goals </p>
             </div>
 
           </Col>
@@ -159,15 +166,15 @@ const Index = () => {
           <Col md='2'>
             <div className='whychooseus-card'>
               <img src={image28} alt='image' />
-              <h5>Creative and innovative designs</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+              <h5>Transparent communication collaboration</h5>
+              <p>We believe in transparent communication and collaboration, fostering a strong partnership to bring your vision to life. </p>
             </div>
           </Col>
           <Col md='2'>
             <div className='whychooseus-card'>
               <img src={image30} alt='image' />
-              <h5>Creative and innovative designs</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. facus eu proin consepus </p>
+              <h5>Client satisfaction and Testimonials</h5>
+              <p>Client satisfaction and glowing testimonials speak volumes about our commitment to excellence Unmatched results Proven trust.</p>
             </div>
           </Col>
           <Col md='4'></Col>
@@ -183,12 +190,12 @@ const Index = () => {
               <Col md='3'>
                 <div className='col-services-inner'>
                   <h5>Our Services</h5>
-                  <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare </p>
+                  <p>Elevate your online presence with our expert services: graphic design, web development, and SEO.</p>
                   <div><span>See more</span> <img src={arrow1} alt="" /></div>
                 </div>
               </Col>
               <Col md='3'>
-                <div className='col-services-inner-grphic'>
+                <div className='col-services-inner-grphic'  onClick={()=>handleChange("graphic")}>
                   <div className='service-image-div'>
                     <img src={pencil} alt='image' />
                   </div>
@@ -198,7 +205,7 @@ const Index = () => {
                 </div>
               </Col>
               <Col md='3' >
-                <div className='col-services-inner-grphic'>
+                <div className='col-services-inner-grphic'  onClick={()=>handleChange("web")}>
                   <div className='service-image-div'>
                     <img src={image22} alt='image' />
                   </div>
@@ -208,7 +215,7 @@ const Index = () => {
                 </div>
               </Col>
               <Col md='3'>
-                <div className='col-services-inner-grphic'>
+                <div className='col-services-inner-grphic'  onClick={()=>handleChange("seo")}>
                   <div className='service-image-div'>
                     <img src={image33} alt='image' />
                   </div>
@@ -246,6 +253,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+              <img className="ellipse-6-main" src={elipse6} />
               {/* <div className="box-circle">
                 <div className="ellipse-circle" />
               </div> */}
@@ -276,21 +284,21 @@ const Index = () => {
                       </Col>
                       <Col md='6'>
                         <div className='our-process-inner-col'>
-                          <img src={pencil} alt='image' />
+                          <img src={image22} alt='image' />
                           <p>Develoment and Coding </p>
                           <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
                         </div>
                       </Col>
                       <Col md='6'>
                         <div className='our-process-inner-col'>
-                          <img src={pencil} alt='image' />
+                          <img src={image23} alt='image' />
                           <p>Testing and Quality assurance </p>
                           <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
                         </div>
                       </Col>
                       <Col md='6'>
                         <div className='our-process-inner-col'>
-                          <img src={pencil} alt='image' />
+                          <img src={image24} alt='image' />
                           <p>Client feedback and revisions</p>
                           <div className='readmore'>Read more <img src={arrow1} alt="" /></div>
                         </div>
@@ -306,7 +314,7 @@ const Index = () => {
           <Col md='6'>
             <div className='our-process-heading'>
               <h5>Our Process</h5>
-              <p>Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin consepus vulputate Felis ornare </p>
+              <p>Our well-defined process combines expertise and creativity to achieve your goals efficiently and effectively. </p>
               <div><span>See more</span> <img src={arrow1} alt="" /></div>
             </div>
           </Col>
@@ -316,7 +324,7 @@ const Index = () => {
         <Row className='m-0 our-process-mian-row'>
           <div className='portfolio-heading-div'>
             <h1>Company Portfolio</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  exercitationem nisi voluptas ex, laborum sequi pariatur, eligendi porro error culpa quae! Rem, mollitia quam.</p>
+            <p>Explore our impressive portfolio for a glimpse of our diverse expertise and successful projects,Dive into our portfolio to witness a rich tapestry of successful endeavors, showcasing our versatile skills and creative prowess.</p>
           </div>
           <Col md='1'></Col>
           <Col md='10'>
@@ -360,7 +368,7 @@ const Index = () => {
               <Col md='6'><img src={advertis} className='adverties-img' /></Col>
               <Col md='6'> <div className='contactus-heading'>
                 <span>Contact Us</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo.</p>
+                <p>Get in touch with us today to start your journey towards success.</p>
                 <div className='input-div-contactus'>
                   <input type='text' placeholder='Email' />
                   <button>Send</button>
