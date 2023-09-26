@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react'
+
 import './Seo.css'
 import Frame from '../../assets/DesigingImages/Frame.png'
 import Group35096 from '../../assets/DesigingImages/Group35096.png'
 import Group35104 from '../../assets/DesigingImages/Group35104.png'
+import arrow1 from '../../assets/images/Arrow1.png'
 import image41 from '../../assets/DesigingImages/image41.png'
 import image42 from '../../assets/DesigingImages/image42.png'
 import image44 from '../../assets/DesigingImages/image44.png'
@@ -14,385 +16,258 @@ import rank_89 from '../../assets/DesigingImages/rank_89015321.png'
 import group65061 from '../../assets/DesigingImages/Group 35061.png'
 import logo from '../../assets/images/logo.png'
 import group650612 from '../../assets/DesigingImages/Group 350612.png'
+
+import elipseleft from '../MainPage/Ellipse 46.png'
+import elipseright from '../MainPage/Ellipse 40.png'
 import arrow from '../../assets/images/Arrow1.png'
 import { Col, Row } from 'reactstrap'
 const Index = () => {
   return (
     <Fragment>
       <div className="single-services-page">
-        <div className="div">
-          <div className="overlap">
-            <div className="ellipse" />
-            <div className="group">
-              <div className="overlap-group">
-                {/* <img className="img" alt="Group" src="group-11.png" /> */}
-                <img className="group-2" alt="Group" src={Group35104} />
-                {/* <img className="vector" alt="Vector" src="vector-8.svg" />
-              <img className="group-3" alt="Group" src="group-13.png" />
-              <img className="group-4" alt="Group" src="group-14.png" />
-              <img className="group-5" alt="Group" src="group-15.png" />
-              <img className="group-6" alt="Group" src="group-16.png" />
-              <img className="vector-2" alt="Vector" src="vector-9.svg" />
-              <img className="vector-3" alt="Vector" src="vector-10.svg" />
-              <img className="vector-4" alt="Vector" src="vector-11.svg" /> */}
-                {/* <div className="overlap-group-wrapper"> */}
-                {/* <div className="overlap-group-2">
-                  <div className="text-wrapper">24/7</div>
-                  <img className="group-7" alt="Group" src="group-17.png" />
-                </div> */}
-                {/* </div> */}
-                {/* <img className="group-8" alt="Group" src="group-18.png" /> */}
+        <Row className='m-0  seo-first-row'>
+          <Col md='1'>
+            <img src={elipseleft} className='elispe-46' />
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <h1>SEO</h1>
+              <p>
+              Boost your online visibility and drive targeted traffic with effective Search Engine Optimization (SEO) strategies. Our expert team ensures your website ranks higher on search engines, attracting potential customers to your business. Stay ahead of the competition and maximize your online presence with our proven SEO techniques.
+                  </p>
+              <div className='company-portfolio-seemore'>
+                <div className='seemore-div-com'>
+
+                  <span>Send Your Enguriy</span>
+                </div>
               </div>
             </div>
+
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <img src={Frame} alt='' />
+            </div>
+          </Col>
+          <Col md='1'></Col>
+        </Row>
+        <Row className='m-0 mt-5'>
+          <Col md='1'>
+            <img src={group650612} className='group650612' />
+          </Col>
+
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <img src={Group35096} alt='' />
+            </div>
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <h1>Why SEO is important for a business</h1>
+              <p>
+              SEO is your online compass. It guides traffic, fuels credibility, and ignites competitiveness. Navigate the digital landscape with SEO as your North Star 
+               </p>
+
+            </div>
+
+          </Col>
+          <Col md='1'>
+            <img src={elipseright} className='elispe-40' />
+          </Col>
+        </Row>
+        <Row className='m-0  seo-first-row'>
+          <Col md='1'>
+            <img src={elipseleft} className='elispe-46-3rd-row' />
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <h1>Why SEO is important for a business</h1>
+              <p>
+              SEO is vital. It heightens online visibility, draws targeted traffic, and builds credibility. Its cost-effectiveness, lasting impact, and edge over competitors make it a digital marketing cornerstone. Stay visible, stay relevant – embrace SEO.  </p>
+             </div>
+
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <img src={image41} alt='' />
+            </div>
+          </Col>
+          <Col md='1'>
+            <img src={elipseright} className='elispe-40-3rd-row' />
+          </Col>
+        </Row>
+        <Row className='m-0 mt-5'>
+          <Col md='1'>
+            <img src={elipseleft} className='elispe-46-3rd-row' />
+          </Col>
+
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <img src={objects} alt='' />
+            </div>
+          </Col>
+          <Col md='5' className=' Seo-hero-content-col'>
+            <div className='Seo-hero-content-div'>
+              <h1>What We Do Offer</h1>
+              <p>
+              We offer a comprehensive suite of SEO services designed to boost your online presence and visibility. Our services encompass keyword research, on-page optimization, technical SEO, content strategy, and link building. With a focus on data-driven strategies, we tailor our SEO efforts to align with your specific goals and industry requirements. Whether you're looking to improve search engine rankings, drive organic traffic, or enhance your website's performance, our experienced team is here to deliver results-driven SEO solutions.
+                 </p>
+
+            </div>
+
+          </Col>
+          <Col md='1'>
+            <img src={elipseright} className='elispe-40-3rd-row' />
+            <img src={group65061} className='elispe-40-3rd-row' />
+          </Col>
+        </Row>
+        <Row className='m-0 mt-5 seo-first-row'>
+          <div className='perks-heading'>
+
+            <h1>Perks of SEO!</h1>
           </div>
-          <div className="overlap-2">
-            <img className="group-9" alt="Group" src={group650612} />
-            <div className="rectangle" />
-            <div className="ellipse-2" />
-            <div className="overlap-wrapper">
-              <div className="overlap-3">
-                <div className="group-10">
-                  <div className="frame-011">
-                    <div className="text-wrapper-2">Name</div>
-                    <input name='name' type='text' className="rectangle-2" />
+          <Col md='1'>
+            <img src={elipseleft} className='elispe-46-3rd-row' />
+          </Col>
+
+          <Col md='10' className=' Seo-hero-content-col'>
+            <Row>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={rank_89} alt='image' />
                   </div>
-                  <div className="frame-2">
-                    <div className="text-wrapper-2">Phone</div>
-                    <input name='phone' type='number' className="rectangle-2" />
+                  <h5>Boost Search Ranking </h5>
+                  <p>Branding & Design services are people’s view and the perception that makes your business visible as well as reliable.  </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={image42} alt='image' />
                   </div>
-                  <div className="frame-3">
-                    <div className="text-wrapper-2">Message</div>
-                    <input name='name' type='text' className="rectangle-3" />
+                  <h5>Get Found Online</h5>
+                  <p>At Zengur, we blend creativity and technology to craft websites that make a lasting impact. </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={image44} alt='image' />
                   </div>
-                  <div className="frame-4">
-                    <div className="text-wrapper-2">Email</div>
-                    <textarea name='message'  className="rectangle-2" />
+                  <h5>Acquire More Leads </h5>
+                  <p>Boost your online visibility with our SEO services. We optimize your website's content, technical aspects, and link  </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={image45} alt='image' />
                   </div>
-                  <div className="frame-5">
-                    <div className="text-wrapper-2">Company</div>
-                    <input name='name' type='text' className="rectangle-2" />
+                  <h5>Most Customer Reach</h5>
+                  <p>Branding & Design services are people’s view and the perception that makes your business visible as well as reliable.  </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={image46} alt='image' />
                   </div>
-                  <button className="div-wrapper">
+                  <h5>Drive More Conversion </h5>
+                  <p>At Zengur, we blend creativity and technology to craft websites that make a lasting impact. </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+              <Col md='4'>
+                <div className='col-seo-inner-grphic'  >
+                  <div className='seo-image-div'>
+                    <img src={rank_89} alt='image' />
+                  </div>
+                  <h5>Improve Brand Reputation </h5>
+                  <p>Boost your online visibility with our SEO services.  </p>
+                  <div><span>Read more</span> <img src={arrow1} alt="" /></div>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+
+          <Col md='1'>
+            <img src={elipseright} className='elispe-40-3rd-row' />
+
+          </Col>
+        </Row>
+        <div className='Seo-contact-form-col'>
+
+          <Row className='m-0 mt-5 form-row'>
+
+            <Col md='1'>
+              <img src={group650612} className='group650612' />
+            </Col>
+
+            <Col md='5' className=' Seo-hero-content-col'>
+              <div className="groups-10">
+                <form className=''>
+                  <div className='   form-div'>
+                    <div className="form-inner-div">
+                      <label className='lable-class' >Name</label>
+                      <input name='name' type='text' className="input-class" />
+                    </div>
+                    <div className="form-inner-div ">
+                      <label className='lable-class' >Email</label>
+                      <input name='name' type='email' className="input-class" />
+                    </div>
+                  </div>
+                  <div className='  form-div '>
+                    <div className="form-inner-div">
+                      <label className='lable-class' >Phone</label>
+                      <input name='name' type='number' className="input-class" />
+                    </div>
+                    <div className="form-inner-div mx-3">
+                      <label className='lable-class' >Company</label>
+                      <input name='name' type='text' className="input-class" />
+                    </div>
+                  </div>
+                  <div className="form-inner-div-textarea ">
+                    <label className='lable-class' >Company</label>
+                    <textarea name='name' />
+                  </div>
+                  <p>Service You Need:</p>
+                  <div className="form-inner-div-checkbox ">
+                    <div className="checkbox-div ">
+                      <input name='name' type='checkbox' className="input-class" />
+                      <span>Web Development</span>
+                    </div>
+                    <div className="checkbox-div mx-2">
+                      <input name='name' type='checkbox' className="input-class" />
+                      <span>SEO Services</span>
+                    </div>
+                    <div className="checkbox-div mx-2 ">
+                      <input name='name' type='checkbox' className="input-class" />
+                      <span>Graphic Desiging</span>
+                    </div>
+                  </div>
+                  <button className="div-wrapperss ">
                     <div className="text-wrapper-3">Send Message</div>
                   </button>
-                </div>
-                <div className="frame-6">
-                  <div className="frame-7">
-                  <input  type='checkbox' className="rectangle-4" />
-                    <div className="text-wrapper-2">Web Development</div>
-                  </div>
-                  <div className="frame-7">
-                  <input  type='checkbox' className="rectangle-4" />
-                    <div className="text-wrapper-2">SEO Services</div>
-                  </div>
-                  <div className="frame-7">
-                  <input  type='checkbox' className="rectangle-4" />
-                    <div className="text-wrapper-2">Branding</div>
-                  </div>
-                  <div className="frame-7">
-                  <input  type='checkbox' className="rectangle-4" />
-                    <div className="text-wrapper-2">Other</div>
-                  </div>
-                </div>
-                <div className="text-wrapper-4">Service You Need:</div>
-              </div>
-            </div>
-            <div className="text-wrapper-5">For Reliable Service</div>
-          </div>
-          <div className="ellipse-3" />
-          <div className="overlap-4">
-            <div className="overlap-5">
-              {/* <div className="rectangle-5" /> */}
-              {/* <img className="group-11" alt="Group" src="group-35076.png" /> */}
-              <div className="ellipse-4" />
-            </div>
-            <div className="overlap-6">
-              {/* <div className="rectangle-6" /> */}
-              <img className="group-12" alt="Group" src={Group35096} />
-              {/* <img className="group-13" alt="Group" src="group-35100.png" /> */}
-            </div>
-            <div className="frame-wrapper">
-              <div className="frame-8">
-                <p className="p">Why SEO is important for a business </p>
-                <p className="text-wrapper-6">
-                SEO is your online compass. It guides traffic, fuels credibility, and ignites competitiveness. Navigate the digital landscape with SEO as your North Star 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="overlap-7">
-            <div className="ellipse-5" />
-            <img className="group-14" alt="Group" src={Frame} />
-            <div className="frame-9">
-              <div className="frame-10">
-                <div className="frame-8">
-                  <div className="text-wrapper-7">SEO</div>
-                  <p className="text-wrapper-8">
-                  Boost your online visibility and drive targeted traffic with effective Search Engine Optimization (SEO) strategies. Our expert team ensures your website ranks higher on search engines, attracting potential customers to your business. Stay ahead of the competition and maximize your online presence with our proven SEO techniques.
-                  </p>
-                </div>
-              </div>
-              <button className="send-your-enguiry-wrapper">
-                <div className="text-wrapper-9">Send Your&nbsp;&nbsp;Enguiry</div>
-              </button>
-            </div>
-          </div>
-          <div className="overlap-8">
-            <div className="rectangle-7" />
-            <div className="ellipse-6" />
-            <div className="frame-11">
-              <div className="frame-8">
-                <p className="text-wrapper-10">Why SEO is important for a business</p>
-                <p className="text-wrapper-6">
-                SEO is vital. It heightens online visibility, draws targeted traffic, and builds credibility. Its cost-effectiveness, lasting impact, and edge over competitors make it a digital marketing cornerstone. Stay visible, stay relevant – embrace SEO.
-
-                </p>
-              </div>
-            </div>
-            <div className="ellipse-7" />
-            <img className="vector-5" alt="Vector" src={vector} />
-            <img className="image" alt="Image" src={image41} />
-          </div>
-          <div className="overlap-9">
-            <div className="overlap-10">
-              <div className="rectangle-8" />
-              <img className="group-15" alt="Group" src={group65061} />
-              <div className="ellipse-8" />
-              <div className="ellipse-9" />
-              <div className="frame-12">
-                <div className="text-wrapper-11">What We Do Offer</div>
-                <p className="text-wrapper-12">
-                We offer a comprehensive suite of SEO services designed to boost your online presence and visibility. Our services encompass keyword research, on-page optimization, technical SEO, content strategy, and link building. With a focus on data-driven strategies, we tailor our SEO efforts to align with your specific goals and industry requirements. Whether you're looking to improve search engine rankings, drive organic traffic, or enhance your website's performance, our experienced team is here to deliver results-driven SEO solutions.
-                </p>
-              </div>
-              <p className="perks-of-responsive">Perks Of SEO!</p>
-              {/* <div className="rectangle-9" />
-            <div className="ellipse-10" /> */}
-
-              <div className="group-16">
-
-                <div className="group-17">
-                  <Row>
-                    <Col md='1'></Col>
-                    <Col md='3'>
-                      <div className="overlap-11">
-                        <div className="group-wrapper">
-                          <div className="group-18">
-                            <div className="frame-13">
-                              <div className="text-wrapper-13">Read More</div>
-                              <img className="arrow" alt="Arrow" src={arrow} />
-                            </div>
-                            <div className="text-wrapper-14">Boost Search Ranking</div>
-                            <p className="branding-design">
-                              Branding &amp; Design services are people’s view and the perception that makes your business
-                              visible as well as reliable.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="group-19" />
-                      </div>
-                    </Col>
-                    <Col md='3'>
-                      <div className="overlap-12">
-                        <div className="group-20">
-                          <div className="group-21">
-                            <div className="frame-14">
-                              <div className="text-wrapper-13">Read More</div>
-                              <img className="arrow" alt="Arrow" src={arrow} />
-                            </div>
-                            <div className="text-wrapper-15">Get Found Online</div>
-                            <p className="text-wrapper-16">
-                              At Zengur, we blend creativity and technology to craft websites that make a lasting impact.
-                            </p>
-                            <div className="div-2" />
-                          </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col md='3'>
-                      <div className="overlap-group-3">
-                        <div className="group-20">
-                          <div className="group-21">
-                            <div className="frame-14">
-                              <div className="text-wrapper-13">Read More</div>
-                              <img className="arrow" alt="Arrow" src={arrow} />
-                            </div>
-                            <div className="text-wrapper-17">Acquire More Leads</div>
-                            <p className="text-wrapper-16">
-                              Boost your online visibility with our SEO services. We optimize your website&#39;s content,
-                              technical aspects, and link
-                            </p>
-                            <div className="div-2" />
-                          </div>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col md='1'></Col>
-                  </Row>
+                </form>
 
 
- 
-                </div>
-                <Row>
-                  <Col  md="1"></Col>
-                  <Col md="3">
-                  <div className="overlap-13">
-                  <div className="group-wrapper">
-                    <div className="group-18">
-                      <div className="frame-13">
-                        <div className="text-wrapper-13">Read More</div>
-                        <img className="arrow" alt="Arrow" src={arrow} />
-                      </div>
-                      <div className="text-wrapper-14">Most Customer Reach</div>
-                      <p className="branding-design">
-                        Branding &amp; Design services are people’s view and the perception that makes your business
-                        visible as well as reliable.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="group-19" />
-                </div>
-                  </Col>
-                  <Col md="3">
+              </div>
 
-                  </Col>
-                  <Col md="3">
-                  <div className="overlap-14">
-                  <div className="group-22">
-                    <div className="group-23">
-                      <div className="frame-15">
-                        <div className="text-wrapper-13">Read More</div>
-                        <img className="arrow" alt="Arrow" src={arrow} />
-                      </div>
-                      <div className="text-wrapper-18">Drive More Conversion</div>
-                      <p className="text-wrapper-19">
-                        At Zengur, we blend creativity and technology to craft websites that make a lasting impact.
-                      </p>
-                      <div className="group-24" />
-                    </div>
-                  </div>
-                </div>
-                  </Col>
-                  <Col md="1">
-                  <div className="overlap-15">
-                  <div className="group-20">
-                    <div className="group-21">
-                      <div className="frame-14">
-                        <div className="text-wrapper-13">Read More</div>
-                        <img className="arrow" alt="Arrow" src={arrow} />
-                      </div>
-                      <div className="text-wrapper-20">Improve Brand Reputation</div>
-                      <p className="text-wrapper-21">Boost your online visibility with our SEO services.</p>
-                      <div className="div-2">
-                        <img className="image-2" alt="Image" src={image46} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  </Col>
-
-                </Row>
-                
-                
-               
+            </Col>
+            <Col md='5' className=' Seo-hero-content-col'>
+              <div className='Seo-hero-content-div'>
+                <img src={Group35104} alt='' />
               </div>
-              <img className="rank" alt="Rank" src={rank_89} />
-              <img className="image-3" alt="Image" src={image42} />
-              <img className="image-4" alt="Image" src={image44} />
-              <img className="image-5" alt="Image" src={image45} />
-              <div className="rectangle-10" />
-            </div>
-            <div className="ellipse-11" />
-            <div className="overlap-16">
-              <div className="OBJECTS">
-                <div className="group-25">
-                  <div className="overlap-group-4">
-                    <img className="vector-6" alt="Vector" src={objects} />
-                    {/* <img className="vector-7" alt="Vector" src="vector-2.svg" />
-                  <img className="vector-8" alt="Vector" src="vector-3.svg" />
-                  <img className="vector-9" alt="Vector" src="vector-4.svg" />
-                  <img className="group-26" alt="Group" src="group.png" />
-                  <img className="group-27" alt="Group" src="image.png" />
-                  <img className="group-28" alt="Group" src="group-2.png" />
-                  <img className="group-29" alt="Group" src="group-3.png" />
-                  <img className="group-30" alt="Group" src="group-4.png" />
-                  <img className="vector-10" alt="Vector" src="vector-5.svg" />
-                  <img className="XMLID" alt="Xmlid" src="XMLID-67.svg" />
-                  <img className="group-31" alt="Group" src="group-5.png" />
-                  <div className="text-wrapper-22">Idea</div>
-                  <img className="group-32" alt="Group" src="group-6.png" />
-                  <img className="vector-11" alt="Vector" src="vector-6.svg" />
-                  <img className="group-33" alt="Group" src="group-7.png" />
-                  <img className="group-34" alt="Group" src="group-8.png" />
-                  <img className="group-35" alt="Group" src="group-9.png" />
-                  <img className="group-36" alt="Group" src="group-10.png" /> */}
-                  </div>
-                </div>
-              </div>
-              <div className="group-37">
-                <div className="overlap-17">
-                  <div className="overlap-group-5">
-                    <div className="text-wrapper-23">100%</div>
-                  </div>
-                  <div className="text-wrapper-24">Resposive</div>
-                </div>
-              </div>
-              <div className="group-38">
-                <div className="overlap-18">
-                  <div className="overlap-group-6">
-                    <div className="text-wrapper-25">90%</div>
-                  </div>
-                  <div className="text-wrapper-26">Achieved</div>
-                </div>
-              </div>
-              <div className="group-39">
-                <div className="overlap-18">
-                  <div className="overlap-group-6">
-                    <div className="text-wrapper-25">80%</div>
-                  </div>
-                  <div className="text-wrapper-27">Speed</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className="frame-16">
-          <div className="text-wrapper-2">Home</div>
-          <div className="text-wrapper-28">Services</div>
-          <div className="text-wrapper-2">About Us</div>
-        </div>
-        <div className="frame-17">
-          <div className="text-wrapper-2">Contact Us</div>
-          <div className="text-wrapper-2">FAQ</div>
-        </div>
-        <div className="rectangle-11" />
-        <div className="frame-18">
-          <div className="text-wrapper-9">Request Quote</div>
-        </div>
-        <div className="ellipse-12" />
-        <div className="group-40">
-          <div className="overlap-group-7">
-            <div className="text-wrapper-29">Zengur</div>
-            <div className="text-wrapper-30">Zengur</div>
-            <div className="text-wrapper-31">Zengur</div>
-          </div>
-        </div> */}
-          <div className="group-41">
-            <div className="overlap-19">
-              <img className="vector-12" alt="Vector" src="vector-7.svg" />
-              <img className="image-6" alt="Image" src={logo} />
-              <p className="text-wrapper-32">
-                Felis ornare posuere dignissim dictum nulla tempus vulputate. Est facus eu proin
-              </p>
-              <div className="text-wrapper-33">@ Copyright 2023</div>
-              <div className="frame-19">
-                <div className="text-wrapper-2">Home</div>
-                <div className="text-wrapper-2">Services</div>
-                <div className="text-wrapper-2">About Us</div>
-                <div className="text-wrapper-2">Contact Us</div>
-                <div className="text-wrapper-2">FAQ</div>
-              </div>
-            </div>
-          </div>
+            </Col>
+            <Col md='1'>
+              <img src={elipseright} className='elispe-40' />
+            </Col>
+          </Row>
         </div>
       </div>
 

@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import whatsappicon from '../../assets/images/whatsappicon.jpg'
 import './Index.css'
+import elipseleft from '../MainPage/Ellipse 46.png'
+
+import elipseright from '../MainPage/Ellipse 40.png'
 const Index = () => {
     const openWhatsAppChat = () => {
         const phoneNumber = '+923357944011'; // Replace with your WhatsApp phone number
@@ -41,34 +44,40 @@ const Index = () => {
         // Add more FAQ items as needed
     ];
     return (
-        <div className="faq-section">
-            <div className='faq-heading'>
+        <Fragment>
+            <div className='main-faq-div'>
+            <img src={elipseleft} className='elispes-46'/>
+                <div className="faq-section">
+                    <div className='faq-heading'>
 
-                <h2 className="faq-title">FAQ</h2>
-            </div>
-            <div className="faq-list">
-                {faqData.map((item, index) => (
-                    <div key={index} className="faq-item">
-                        <div className="question" onClick={() => handleToggle(index)}>
-                            <span className="question-text">{item.question}</span>
-                            <button className="toggle-button">
-                                {activeIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
-                            </button>
-                        </div>
-                        {activeIndex === index && (
-                            <div className="answer">
-                                <p>{item.answer}</p>
-                            </div>
-                        )}
+                        <h2 className="faq-title">FAQ</h2>
                     </div>
-                ))}
+                    <div className="faq-list">
+                        {faqData.map((item, index) => (
+                            <div key={index} className="faq-item">
+                                <div className="question" onClick={() => handleToggle(index)}>
+                                    <span className="question-text">{item.question}</span>
+                                    <button className="toggle-button">
+                                        {activeIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
+                                    </button>
+                                </div>
+                                {activeIndex === index && (
+                                    <div className="answer">
+                                        <p>{item.answer}</p>
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                    <div className="whatsapp-button" onClick={openWhatsAppChat}>
+                        {/* <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Hight Quality Icons - Flaticon</a> */}
+                        {/* <img src={whatsappicon} alt="WhatsApp Icon" /> */}
+                    </div>
+                </div>
+                <img src={elipseright} className='elispe-40'/>
             </div>
-            <div className="whatsapp-button" onClick={openWhatsAppChat}>
-                {/* <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Hight Quality Icons - Flaticon</a> */}
-                {/* <img src={whatsappicon} alt="WhatsApp Icon" /> */}
-            </div>
-        </div>
 
+        </Fragment>
 
 
     )

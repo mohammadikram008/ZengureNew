@@ -1,4 +1,5 @@
 .faq-section {
+
   max-width: 800px;
   margin: 0 auto;
   color: white;
@@ -6,9 +7,20 @@
   text-align: center;
 }
 
+.main-faq-div {
+
+  background-color: #162931;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* margin-top: 100px !important; */
+  flex-direction: column;
+}
+
 .faq-title {
   display: flex;
-  
+
   color: white;
   justify-content: start;
   align-items: start;
@@ -44,17 +56,21 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
-  color: #557292; /* Zengur Company's primary color */
+  color: #557292;
+  /* Zengur Company's primary color */
 }
+
 .toggle-button:hover {
   background-color: white;
   color: #775151;
 }
+
 .faq-heading {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .answer {
   max-height: 150px;
   margin-top: 10px;
@@ -62,9 +78,26 @@
   overflow: hidden;
   transition: max-height 0.2s ease;
 }
+
 .answer p {
   color: wheat;
 }
+
 .faq-item.active .answer {
   max-height: 100px;
+}
+.elispes-46 {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .faq-section {
+    margin-top: 0px !important;
+  }
+
+  .elispes-46 {
+    top: 60px !important;
+
+  }
 }

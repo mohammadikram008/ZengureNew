@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import './MainStyle.css'
-import { Link ,useNavigate} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 // import heading from './heading.png'
 // import group48 from './group48.png'
@@ -49,7 +49,7 @@ import Faq from '../FAQ/Index'
 import ellipse47 from './Group 47.png'
 import Footer from '../Footer/Index'
 const Index = () => {
-  const Navigate=useNavigate();
+  const Navigate = useNavigate();
   const openWhatsAppChat = () => {
     const phoneNumber = '+923357944011'; // Replace with your WhatsApp phone number
 
@@ -64,10 +64,10 @@ const Index = () => {
   const handleToggle = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
-const handleChange=(props)=>{
-  // Navigate('/seo')
+  const handleChange = (props) => {
+    // Navigate('/seo')
 
-}
+  }
 
   const faqData = [
     {
@@ -106,14 +106,17 @@ const handleChange=(props)=>{
             <div className='bussniess-img'>
               <img src={group35078} />
             </div>
-           
-              <img src={ellipse47} className='elipse-47' />
+
+            <img src={ellipse47} className='elipse-47' />
             <div className='portrait'>
-              <img src={portrait}  className='portrait-img'/>
+              <img src={portrait} className='portrait-img' />
               <img src={elips120count} className='elipse-120' />
             </div>
             <div>
               <img src={getintouchbtn} className='getintouchbtn' />
+            </div>
+            <div className="box-bg">
+              <img className="group-line" alt="Group" src={group35076} />
             </div>
             <div>
               <img src={image9} className='image9' />
@@ -195,7 +198,7 @@ const handleChange=(props)=>{
                 </div>
               </Col>
               <Col md='3'>
-                <div className='col-services-inner-grphic'  onClick={()=>handleChange("graphic")}>
+                <div className='col-services-inner-grphic' onClick={() => Navigate('/graphic')}>
                   <div className='service-image-div'>
                     <img src={pencil} alt='image' />
                   </div>
@@ -205,7 +208,7 @@ const handleChange=(props)=>{
                 </div>
               </Col>
               <Col md='3' >
-                <div className='col-services-inner-grphic'  onClick={()=>handleChange("web")}>
+                <div className='col-services-inner-grphic' onClick={() => Navigate('/web')}>
                   <div className='service-image-div'>
                     <img src={image22} alt='image' />
                   </div>
@@ -215,7 +218,7 @@ const handleChange=(props)=>{
                 </div>
               </Col>
               <Col md='3'>
-                <div className='col-services-inner-grphic'  onClick={()=>handleChange("seo")}>
+                <div className='col-services-inner-grphic' onClick={() => Navigate('/seo')}>
                   <div className='service-image-div'>
                     <img src={image33} alt='image' />
                   </div>
@@ -363,7 +366,7 @@ const handleChange=(props)=>{
 
         <Row className='m-0 row-contact-us-topAll'>
           <Col md='1'></Col>
-          <Col md='10' className='contact-main-col mt-5'>
+          <Col md='10' className='contact-main-col mt-5 mb-5'>
             <Row className='contactus-inner-section'>
               <Col md='6'><img src={advertis} className='adverties-img' /></Col>
               <Col md='6'> <div className='contactus-heading'>
